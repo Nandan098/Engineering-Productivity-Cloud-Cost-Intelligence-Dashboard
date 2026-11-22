@@ -1,0 +1,43 @@
+team_id,month,production_deployments,successful_deployments,failed_deployments,rollbacks,median_duration_minutes,failure_rate_pct,rollback_rate_pct,team_name
+T01,2026-05,5,5,0,0,8.4,0.0,0.0,Checkout & Payments
+T01,2026-06,14,13,1,1,7.65,7.142857142857143,7.142857142857143,Checkout & Payments
+T01,2026-07,12,10,2,2,7.35,16.666666666666668,16.666666666666668,Checkout & Payments
+T01,2026-08,11,10,1,0,8.0,9.090909090909092,0.0,Checkout & Payments
+T01,2026-09,10,8,2,2,9.5,20.0,20.0,Checkout & Payments
+T01,2026-10,15,14,1,1,8.5,6.666666666666667,6.666666666666667,Checkout & Payments
+T02,2026-05,20,20,0,0,9.05,0.0,0.0,Core Platform
+T02,2026-06,9,9,0,0,13.1,0.0,0.0,Core Platform
+T02,2026-07,14,13,1,2,9.5,7.142857142857143,14.285714285714286,Core Platform
+T02,2026-08,16,15,1,1,8.25,6.25,6.25,Core Platform
+T02,2026-09,16,15,1,0,8.8,6.25,0.0,Core Platform
+T02,2026-10,15,13,2,2,9.0,13.333333333333334,13.333333333333334,Core Platform
+T03,2026-05,8,7,1,1,11.65,12.5,12.5,Fulfillment Systems
+T03,2026-06,8,6,2,2,6.6,25.0,25.0,Fulfillment Systems
+T03,2026-07,8,8,0,0,9.850000000000001,0.0,0.0,Fulfillment Systems
+T03,2026-08,10,10,0,0,7.449999999999999,0.0,0.0,Fulfillment Systems
+T03,2026-09,10,10,0,0,9.55,0.0,0.0,Fulfillment Systems
+T03,2026-10,12,11,1,1,11.2,8.333333333333334,8.333333333333334,Fulfillment Systems
+T04,2026-05,2,2,0,0,11.1,0.0,0.0,Consumer Mobile
+T04,2026-06,4,4,0,0,9.55,0.0,0.0,Consumer Mobile
+T04,2026-07,3,3,0,0,13.3,0.0,0.0,Consumer Mobile
+T04,2026-08,4,4,0,0,8.8,0.0,0.0,Consumer Mobile
+T04,2026-09,5,4,1,1,5.4,20.0,20.0,Consumer Mobile
+T04,2026-10,3,3,0,1,11.6,0.0,33.333333333333336,Consumer Mobile
+T05,2026-05,4,4,0,0,12.4,0.0,0.0,Data & Analytics
+T05,2026-06,6,6,0,0,10.25,0.0,0.0,Data & Analytics
+T05,2026-07,7,7,0,0,11.6,0.0,0.0,Data & Analytics
+T05,2026-08,4,3,1,1,13.25,25.0,25.0,Data & Analytics
+T05,2026-09,8,7,1,1,7.25,12.5,12.5,Data & Analytics
+T05,2026-10,4,4,0,0,3.8,0.0,0.0,Data & Analytics
+T06,2026-05,15,15,0,0,10.4,0.0,0.0,SRE & Infrastructure
+T06,2026-06,8,8,0,0,6.85,0.0,0.0,SRE & Infrastructure
+T06,2026-07,10,10,0,0,9.9,0.0,0.0,SRE & Infrastructure
+T06,2026-08,10,9,1,1,9.850000000000001,10.0,10.0,SRE & Infrastructure
+T06,2026-09,10,9,1,0,9.3,10.0,0.0,SRE & Infrastructure
+T06,2026-10,17,17,0,0,7.2,0.0,0.0,SRE & Infrastructure
+T06,2026-11,1,1,0,0,10.6,0.0,0.0,SRE & Infrastructure
+T07,2026-06,4,3,1,1,9.6,25.0,25.0,Merchant Integrations
+T07,2026-07,4,4,0,0,9.6,0.0,0.0,Merchant Integrations
+T07,2026-08,7,6,1,1,9.4,14.285714285714286,14.285714285714286,Merchant Integrations
+T07,2026-09,5,4,1,0,10.5,20.0,0.0,Merchant Integrations
+T07,2026-10,1,1,0,0,7.4,0.0,0.0,Merchant Integrations

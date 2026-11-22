@@ -1,0 +1,98 @@
+-- Create these measures after importing the corresponding CSV tables.
+-- Adjust table/column names only if you rename them in Power BI.
+
+Total Tasks = COUNTROWS(tasks)
+
+Done Tasks =
+CALCULATE(COUNTROWS(tasks), tasks[status] = "Done")
+
+Task Completion % =
+DIVIDE([Done Tasks], [Total Tasks], 0) * 100
+
+Committed Story Points =
+CALCULATE(SUM(tasks[story_points]), tasks[is_committed] = TRUE())
+
+Completed Committed Story Points =
+CALCULATE(
+    SUM(tasks[story_points]),
+    tasks[is_committed] = TRUE(),
+    tasks[status] = "Done"
+)
+
+Sprint Commitment Completion % =
+DIVIDE([Completed Committed Story Points], [Committed Story Points], 0) * 100
+
+Production Deployments =
+CALCULATE(
+    COUNTROWS(deployments),
+    deployments[environment] = "Production"
+)
+
+Successful Production Deployments =
+CALCULATE(
+    COUNTROWS(deployments),
+    deployments[environment] = "Production",
+    deployments[status] = "Success"
+)
+
+Failed Production Deployments =
+CALCULATE(
+    COUNTROWS(deployments),
+    deployments[environment] = "Production",
+    deployments[status] = "Failed"
+)
+
+Production Deployment Failure % =
+DIVIDE([Failed Production Deployments], [Production Deployments], 0) * 100
+
+Production Rollbacks =
+CALCULATE(
+    COUNTROWS(deployments),
+    deployments[environment] = "Production",
+    deployments[rollback_flag] = TRUE()
+)
+
+Production Rollback % =
+DIVIDE([Production Rollbacks], [Production Deployments], 0) * 100
+
+Cloud Actual Cost INR = SUM(cloud_costs[cost_inr])
+
+Cloud Allocated Budget INR = SUM(cloud_costs[budget_inr])
+
+Cloud Cost Variance INR = [Cloud Actual Cost INR] - [Cloud Allocated Budget INR]
+
+Cloud Cost Variance % =
+DIVIDE([Cloud Cost Variance INR], [Cloud Allocated Budget INR], 0) * 100
+
+Available Hours = SUM(capacity[available_hours])
+
+Logged Hours = SUM(capacity[logged_hours])
+
+Weighted Resource Utilization % =
+DIVIDE([Logged Hours], [Available Hours], 0) * 100
+
+Open Incidents =
+CALCULATE(COUNTROWS(incidents), incidents[status] = "Open")
+
+Resolved Incidents =
+CALCULATE(COUNTROWS(incidents), NOT(ISBLANK(incidents[resolved_at])))
+
+Mean Time to Restore Hours =
+AVERAGEX(
+    FILTER(incidents, NOT(ISBLANK(incidents[resolved_at]))),
+    DIVIDE(DATEDIFF(incidents[started_at], incidents[resolved_at], SECOND), 3600)
+)
+
+Average Completed Task Cycle Days =
+CALCULATE(AVERAGE(tasks[cycle_time_days]), tasks[status] = "Done")
+
+-- Optional explicit date table. Mark this table as the Date table in Power BI.
+Calendar =
+ADDCOLUMNS(
+    CALENDAR(DATE(2026, 5, 4), DATE(2026, 11, 1)),
+    "Year", YEAR([Date]),
+    "Month Number", MONTH([Date]),
+    "Month", FORMAT([Date], "MMM yyyy"),
+    "Year Month", FORMAT([Date], "YYYY-MM"),
+    "Week Start", [Date] - WEEKDAY([Date], 2) + 1
+)

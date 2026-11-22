@@ -1,0 +1,8 @@
+team_id,incident_count,open_incidents,resolved_incidents,mean_mttr_hours,p1_incidents,team_name
+T01,19,0,19,3.4266520467836257,4,Checkout & Payments
+T02,31,2,29,2.3255459770114943,0,Core Platform
+T03,36,1,35,3.6388174603174606,2,Fulfillment Systems
+T04,11,2,9,3.951574074074074,0,Consumer Mobile
+T05,12,0,12,3.560208333333333,1,Data & Analytics
+T06,28,1,27,3.6299279835390945,1,SRE & Infrastructure
+T07,11,2,9,3.174043209876543,0,Merchant Integrations

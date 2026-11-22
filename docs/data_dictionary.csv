@@ -1,0 +1,9 @@
+file_name,grain,primary_key,description
+teams.csv,One row per engineering team,team_id,Team dimension; unequal headcounts and budgets are intentional.
+engineers.csv,One row per engineer,engineer_id,Synthetic roles and career levels; each engineer belongs to one team.
+sprints.csv,One row per team per two-week sprint,sprint_id,13 sprint cycles per team; sprint_id links tasks.
+tasks.csv,One row per work item,task_id,"Committed/unplanned work, story points, status, dates, blockers and cycle time."
+deployments.csv,One row per deployment event,deployment_id,"Production, Staging and Development events with outcomes and rollback flag."
+cloud_costs.csv,One row per team-service-environment-day,cost_id,Daily simulated actual cost and allocated budget in INR.
+capacity.csv,One row per team per working day,date + team_id,Available/logged hours and work mix; utilization varies across teams and days.
+incidents.csv,One row per incident,incident_id,"Severity, resolution, impact and optional recent deployment association."

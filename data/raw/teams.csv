@@ -1,0 +1,8 @@
+team_id,team_name,domain,headcount,manager_role,monthly_cloud_budget_inr,reporting_location
+T01,Checkout & Payments,Transaction Systems,8,Engineering Manager,245000,Bengaluru
+T02,Core Platform,Platform Engineering,9,Engineering Manager,335000,Bengaluru
+T03,Fulfillment Systems,Order Operations,10,Engineering Manager,285000,Bengaluru
+T04,Consumer Mobile,Mobile Applications,7,Engineering Manager,165000,Bengaluru
+T05,Data & Analytics,Data Platform,6,Engineering Manager,195000,Bengaluru
+T06,SRE & Infrastructure,Reliability Engineering,5,Engineering Manager,310000,Bengaluru
+T07,Merchant Integrations,Partner Integrations,5,Engineering Manager,125000,Bengaluru

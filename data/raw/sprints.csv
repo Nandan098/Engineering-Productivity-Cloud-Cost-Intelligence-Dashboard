@@ -1,0 +1,92 @@
+sprint_id,team_id,sprint_number,start_date,end_date,planned_capacity_hours,sprint_goal
+SP-T01-01,T01,1,2026-05-04,2026-05-17,616.0,Reduce payment retries
+SP-T01-02,T01,2,2026-05-18,2026-05-31,616.0,Improve checkout resilience
+SP-T01-03,T01,3,2026-06-01,2026-06-14,624.0,Improve payment observability
+SP-T01-04,T01,4,2026-06-15,2026-06-28,624.0,Reduce payment retries
+SP-T01-05,T01,5,2026-06-29,2026-07-12,624.0,Reduce payment retries
+SP-T01-06,T01,6,2026-07-13,2026-07-26,624.0,Improve payment observability
+SP-T01-07,T01,7,2026-07-27,2026-08-09,624.0,Reduce payment retries
+SP-T01-08,T01,8,2026-08-10,2026-08-23,632.0,Reduce payment retries
+SP-T01-09,T01,9,2026-08-24,2026-09-06,616.0,Streamline refund flow
+SP-T01-10,T01,10,2026-09-07,2026-09-20,628.0,Streamline refund flow
+SP-T01-11,T01,11,2026-09-21,2026-10-04,600.0,Reduce payment retries
+SP-T01-12,T01,12,2026-10-05,2026-10-18,592.0,Reduce payment retries
+SP-T01-13,T01,13,2026-10-19,2026-11-01,612.0,Improve checkout resilience
+SP-T02-01,T02,1,2026-05-04,2026-05-17,700.0,Platform scalability
+SP-T02-02,T02,2,2026-05-18,2026-05-31,680.0,Upgrade shared services
+SP-T02-03,T02,3,2026-06-01,2026-06-14,704.0,Platform scalability
+SP-T02-04,T02,4,2026-06-15,2026-06-28,720.0,Improve service reliability
+SP-T02-05,T02,5,2026-06-29,2026-07-12,696.0,Improve service reliability
+SP-T02-06,T02,6,2026-07-13,2026-07-26,699.5,Improve service reliability
+SP-T02-07,T02,7,2026-07-27,2026-08-09,696.0,Upgrade shared services
+SP-T02-08,T02,8,2026-08-10,2026-08-23,696.0,Upgrade shared services
+SP-T02-09,T02,9,2026-08-24,2026-09-06,688.0,Platform scalability
+SP-T02-10,T02,10,2026-09-07,2026-09-20,720.0,Improve service reliability
+SP-T02-11,T02,11,2026-09-21,2026-10-04,688.0,Improve service reliability
+SP-T02-12,T02,12,2026-10-05,2026-10-18,712.0,Upgrade shared services
+SP-T02-13,T02,13,2026-10-19,2026-11-01,688.0,Platform scalability
+SP-T03-01,T03,1,2026-05-04,2026-05-17,760.0,Improve order orchestration
+SP-T03-02,T03,2,2026-05-18,2026-05-31,776.0,Improve order orchestration
+SP-T03-03,T03,3,2026-06-01,2026-06-14,784.0,Improve order orchestration
+SP-T03-04,T03,4,2026-06-15,2026-06-28,784.0,Improve exception handling
+SP-T03-05,T03,5,2026-06-29,2026-07-12,779.0,Stabilize order workflows
+SP-T03-06,T03,6,2026-07-13,2026-07-26,776.0,Improve exception handling
+SP-T03-07,T03,7,2026-07-27,2026-08-09,792.0,Reduce fulfilment latency
+SP-T03-08,T03,8,2026-08-10,2026-08-23,776.0,Improve order orchestration
+SP-T03-09,T03,9,2026-08-24,2026-09-06,784.0,Improve exception handling
+SP-T03-10,T03,10,2026-09-07,2026-09-20,782.5,Improve exception handling
+SP-T03-11,T03,11,2026-09-21,2026-10-04,784.0,Improve order orchestration
+SP-T03-12,T03,12,2026-10-05,2026-10-18,768.0,Stabilize order workflows
+SP-T03-13,T03,13,2026-10-19,2026-11-01,776.0,Improve exception handling
+SP-T04-01,T04,1,2026-05-04,2026-05-17,544.0,Improve app performance
+SP-T04-02,T04,2,2026-05-18,2026-05-31,521.0,Improve app performance
+SP-T04-03,T04,3,2026-06-01,2026-06-14,552.0,Improve app performance
+SP-T04-04,T04,4,2026-06-15,2026-06-28,552.0,Reduce crash rate
+SP-T04-05,T04,5,2026-06-29,2026-07-12,544.0,Improve app stability
+SP-T04-06,T04,6,2026-07-13,2026-07-26,548.5,Improve app performance
+SP-T04-07,T04,7,2026-07-27,2026-08-09,525.0,Release checkout experience updates
+SP-T04-08,T04,8,2026-08-10,2026-08-23,560.0,Release checkout experience updates
+SP-T04-09,T04,9,2026-08-24,2026-09-06,552.0,Reduce crash rate
+SP-T04-10,T04,10,2026-09-07,2026-09-20,549.0,Reduce crash rate
+SP-T04-11,T04,11,2026-09-21,2026-10-04,536.0,Reduce crash rate
+SP-T04-12,T04,12,2026-10-05,2026-10-18,536.0,Improve app stability
+SP-T04-13,T04,13,2026-10-19,2026-11-01,552.0,Release checkout experience updates
+SP-T05-01,T05,1,2026-05-04,2026-05-17,448.0,Improve data freshness
+SP-T05-02,T05,2,2026-05-18,2026-05-31,440.0,Improve data freshness
+SP-T05-03,T05,3,2026-06-01,2026-06-14,472.0,Improve reporting quality
+SP-T05-04,T05,4,2026-06-15,2026-06-28,464.0,Improve data freshness
+SP-T05-05,T05,5,2026-06-29,2026-07-12,469.0,Improve reporting quality
+SP-T05-06,T05,6,2026-07-13,2026-07-26,472.0,Reduce warehouse query latency
+SP-T05-07,T05,7,2026-07-27,2026-08-09,480.0,Improve reporting quality
+SP-T05-08,T05,8,2026-08-10,2026-08-23,464.0,Improve reporting quality
+SP-T05-09,T05,9,2026-08-24,2026-09-06,421.5,Improve reporting quality
+SP-T05-10,T05,10,2026-09-07,2026-09-20,461.0,Improve data freshness
+SP-T05-11,T05,11,2026-09-21,2026-10-04,456.0,Optimize pipeline reliability
+SP-T05-12,T05,12,2026-10-05,2026-10-18,469.0,Reduce warehouse query latency
+SP-T05-13,T05,13,2026-10-19,2026-11-01,456.0,Improve reporting quality
+SP-T06-01,T06,1,2026-05-04,2026-05-17,384.0,Improve observability coverage
+SP-T06-02,T06,2,2026-05-18,2026-05-31,392.0,Reduce incident response time
+SP-T06-03,T06,3,2026-06-01,2026-06-14,384.0,Improve observability coverage
+SP-T06-04,T06,4,2026-06-15,2026-06-28,376.0,Improve platform reliability
+SP-T06-05,T06,5,2026-06-29,2026-07-12,384.0,Improve observability coverage
+SP-T06-06,T06,6,2026-07-13,2026-07-26,384.0,Reduce incident response time
+SP-T06-07,T06,7,2026-07-27,2026-08-09,392.0,Improve platform reliability
+SP-T06-08,T06,8,2026-08-10,2026-08-23,392.0,Improve platform reliability
+SP-T06-09,T06,9,2026-08-24,2026-09-06,384.0,Reduce incident response time
+SP-T06-10,T06,10,2026-09-07,2026-09-20,400.0,Automate infrastructure operations
+SP-T06-11,T06,11,2026-09-21,2026-10-04,384.0,Reduce incident response time
+SP-T06-12,T06,12,2026-10-05,2026-10-18,376.0,Improve observability coverage
+SP-T06-13,T06,13,2026-10-19,2026-11-01,376.0,Improve observability coverage
+SP-T07-01,T07,1,2026-05-04,2026-05-17,384.0,Improve partner API reliability
+SP-T07-02,T07,2,2026-05-18,2026-05-31,384.0,Improve webhook handling
+SP-T07-03,T07,3,2026-06-01,2026-06-14,392.0,Stabilize partner workflows
+SP-T07-04,T07,4,2026-06-15,2026-06-28,392.0,Improve webhook handling
+SP-T07-05,T07,5,2026-06-29,2026-07-12,374.0,Stabilize partner workflows
+SP-T07-06,T07,6,2026-07-13,2026-07-26,392.0,Improve partner API reliability
+SP-T07-07,T07,7,2026-07-27,2026-08-09,392.0,Improve webhook handling
+SP-T07-08,T07,8,2026-08-10,2026-08-23,392.0,Reduce integration onboarding time
+SP-T07-09,T07,9,2026-08-24,2026-09-06,384.0,Reduce integration onboarding time
+SP-T07-10,T07,10,2026-09-07,2026-09-20,384.0,Reduce integration onboarding time
+SP-T07-11,T07,11,2026-09-21,2026-10-04,400.0,Improve webhook handling
+SP-T07-12,T07,12,2026-10-05,2026-10-18,397.5,Improve webhook handling
+SP-T07-13,T07,13,2026-10-19,2026-11-01,392.0,Improve partner API reliability

@@ -1,0 +1,11 @@
+-- Run from the project root after sql/01_schema_postgresql.sql.
+-- Example: psql -d engineering_analytics -f sql/02_load_csvs.psql
+-- Paths are relative to the current psql working directory.
+\copy teams FROM 'data/raw/teams.csv' WITH (FORMAT csv, HEADER true)
+\copy engineers FROM 'data/raw/engineers.csv' WITH (FORMAT csv, HEADER true)
+\copy sprints FROM 'data/raw/sprints.csv' WITH (FORMAT csv, HEADER true)
+\copy tasks FROM 'data/raw/tasks.csv' WITH (FORMAT csv, HEADER true)
+\copy deployments FROM 'data/raw/deployments.csv' WITH (FORMAT csv, HEADER true)
+\copy cloud_costs FROM 'data/raw/cloud_costs.csv' WITH (FORMAT csv, HEADER true)
+\copy capacity FROM 'data/raw/capacity.csv' WITH (FORMAT csv, HEADER true)
+\copy incidents FROM 'data/raw/incidents.csv' WITH (FORMAT csv, HEADER true)

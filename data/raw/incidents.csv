@@ -1,0 +1,149 @@
+incident_id,team_id,service_name,started_at,resolved_at,severity,category,status,affected_users_estimate,customer_impact_minutes,related_deployment_id,suspected_change_related
+INC0001,T01,Managed Database,2026-05-10 06:05:00,2026-05-10 13:14:26,P1,Network,Resolved,6077,1,,False
+INC0002,T01,Payment API,2026-05-10 01:40:00,2026-05-10 05:17:44,P2,Data Pipeline,Resolved,2851,1,,False
+INC0003,T01,Compute,2026-05-04 17:26:00,2026-05-04 18:05:05,P3,Third-party,Resolved,1308,0,,False
+INC0004,T01,Managed Database,2026-05-26 14:12:00,2026-05-26 15:46:07,P3,Unknown,Resolved,326,1,,False
+INC0005,T01,Managed Database,2026-05-24 08:17:00,2026-05-24 13:02:15,P1,Network,Resolved,8157,2,,False
+INC0006,T01,Payment API,2026-06-04 21:53:00,2026-06-05 00:35:04,P2,Database,Resolved,5532,1,,False
+INC0007,T01,Managed Database,2026-07-09 15:40:00,2026-07-09 18:14:49,P1,Network,Resolved,12588,2,,False
+INC0008,T01,Payment API,2026-07-06 07:29:00,2026-07-06 10:55:16,P1,Database,Resolved,13007,3,DEP00041,True
+INC0009,T01,Monitoring,2026-07-24 11:13:00,2026-07-24 13:30:06,P2,Deployment,Resolved,6146,0,,False
+INC0010,T01,Managed Database,2026-07-16 19:50:00,2026-07-17 00:30:45,P3,Network,Resolved,572,1,,False
+INC0011,T01,Monitoring,2026-08-07 21:17:00,2026-08-08 00:10:18,P4,Capacity,Resolved,123,2,DEP00052,True
+INC0012,T01,Payment API,2026-08-22 07:31:00,2026-08-22 13:09:51,P2,Capacity,Resolved,1209,3,,False
+INC0013,T01,Managed Database,2026-08-24 11:26:00,2026-08-24 14:38:25,P3,Data Pipeline,Resolved,1319,3,,False
+INC0014,T01,Managed Database,2026-09-25 21:46:00,2026-09-26 00:38:02,P4,Data Pipeline,Resolved,259,2,,False
+INC0015,T01,Compute,2026-10-09 20:08:00,2026-10-09 21:53:48,P3,Deployment,Resolved,833,1,,False
+INC0016,T01,Cache,2026-10-15 13:29:00,2026-10-15 17:40:40,P2,Unknown,Resolved,609,4,,False
+INC0017,T01,Compute,2026-10-20 15:34:00,2026-10-20 17:46:41,P4,Database,Resolved,149,1,,False
+INC0018,T01,Payment API,2026-10-28 07:10:00,2026-10-28 12:53:49,P3,Third-party,Resolved,1340,3,,False
+INC0019,T01,Compute,2026-10-24 16:15:00,2026-10-24 19:24:12,P3,Deployment,Resolved,1048,2,,False
+INC0020,T02,Kubernetes,2026-05-12 09:39:00,2026-05-12 11:30:49,P4,Capacity,Resolved,199,1,,False
+INC0021,T02,Kubernetes,2026-05-06 00:59:00,2026-05-06 02:27:30,P3,Deployment,Resolved,1087,1,DEP00114,False
+INC0022,T02,Compute,2026-05-08 07:27:00,,P3,Deployment,Open,773,1,,False
+INC0023,T02,Compute,2026-05-23 22:23:00,2026-05-24 01:38:56,P2,Database,Resolved,4161,2,DEP00129,True
+INC0024,T02,Kubernetes,2026-05-23 03:01:00,2026-05-23 04:06:39,P4,Data Pipeline,Resolved,88,0,,False
+INC0025,T02,Network Egress,2026-05-28 13:47:00,2026-05-28 17:53:27,P2,Database,Resolved,1153,2,DEP00134,True
+INC0026,T02,Logging,2026-05-29 22:35:00,2026-05-30 02:50:49,P2,Database,Resolved,520,3,DEP00138,False
+INC0027,T02,Network Egress,2026-06-09 19:00:00,,P3,Data Pipeline,Open,855,2,DEP00147,True
+INC0028,T02,Kubernetes,2026-06-07 00:54:00,2026-06-07 02:05:07,P4,Database,Resolved,172,1,,False
+INC0029,T02,Compute,2026-06-01 23:56:00,2026-06-02 01:26:33,P2,Database,Resolved,2241,1,,False
+INC0030,T02,Kubernetes,2026-06-06 21:06:00,2026-06-06 23:18:34,P2,Unknown,Resolved,6535,2,,False
+INC0031,T02,Network Egress,2026-06-24 00:06:00,2026-06-24 03:55:30,P3,Third-party,Resolved,51,2,,False
+INC0032,T02,Kubernetes,2026-07-02 02:41:00,2026-07-02 04:28:10,P3,Database,Resolved,644,1,DEP00182,True
+INC0033,T02,Managed Database,2026-06-29 13:27:00,2026-06-29 15:04:28,P4,Third-party,Resolved,116,1,,False
+INC0034,T02,Compute,2026-07-11 03:00:00,2026-07-11 04:22:01,P2,Unknown,Resolved,2094,1,DEP00181,False
+INC0035,T02,Network Egress,2026-07-01 00:50:00,2026-07-01 05:21:53,P3,Deployment,Resolved,1114,1,DEP00182,False
+INC0036,T02,Kubernetes,2026-07-24 14:35:00,2026-07-24 15:07:18,P4,Database,Resolved,20,1,,False
+INC0037,T02,Managed Database,2026-07-16 15:50:00,2026-07-16 16:56:53,P3,Third-party,Resolved,515,1,,False
+INC0038,T02,Compute,2026-07-21 02:45:00,2026-07-21 05:28:56,P3,Network,Resolved,94,2,,False
+INC0039,T02,Logging,2026-08-07 03:16:00,2026-08-07 04:29:49,P3,Third-party,Resolved,700,1,,False
+INC0040,T02,Kubernetes,2026-08-01 02:52:00,2026-08-01 03:43:42,P4,Unknown,Resolved,224,1,,False
+INC0041,T02,Logging,2026-08-11 12:32:00,2026-08-11 16:45:51,P2,Database,Resolved,5419,1,,False
+INC0042,T02,Network Egress,2026-08-10 23:31:00,2026-08-11 01:41:01,P3,Database,Resolved,393,2,DEP00222,True
+INC0043,T02,Compute,2026-08-26 07:47:00,2026-08-26 12:58:18,P3,Capacity,Resolved,1324,3,DEP00232,False
+INC0044,T02,Managed Database,2026-09-15 14:19:00,2026-09-15 15:50:52,P3,Data Pipeline,Resolved,283,1,DEP00242,True
+INC0045,T02,Network Egress,2026-09-18 17:50:00,2026-09-18 20:11:58,P3,Deployment,Resolved,624,1,,False
+INC0046,T02,Compute,2026-09-07 20:33:00,2026-09-07 21:35:27,P4,Network,Resolved,31,1,,False
+INC0047,T02,Network Egress,2026-09-28 10:29:00,2026-09-28 12:35:13,P3,Deployment,Resolved,19,2,,False
+INC0048,T02,Kubernetes,2026-09-25 20:49:00,2026-09-26 00:05:50,P4,Capacity,Resolved,164,3,,False
+INC0049,T02,Compute,2026-10-10 07:20:00,2026-10-10 10:36:53,P3,Data Pipeline,Resolved,1396,1,,False
+INC0050,T02,Kubernetes,2026-10-12 22:25:00,2026-10-13 00:05:00,P4,Network,Resolved,198,1,,False
+INC0051,T03,Order Services,2026-05-09 23:37:00,2026-05-10 02:46:22,P3,Database,Resolved,281,2,DEP00286,False
+INC0052,T03,Monitoring,2026-05-11 09:37:00,2026-05-11 13:05:22,P3,Database,Resolved,220,1,,False
+INC0053,T03,Order Services,2026-05-16 02:10:00,2026-05-16 09:38:26,P1,Database,Resolved,11344,6,,False
+INC0054,T03,Compute,2026-05-21 16:03:00,2026-05-21 18:55:55,P3,Third-party,Resolved,1348,1,,False
+INC0055,T03,Compute,2026-05-18 13:20:00,2026-05-18 16:19:29,P2,Third-party,Resolved,5400,1,,False
+INC0056,T03,Monitoring,2026-06-24 20:31:00,2026-06-24 23:12:10,P4,Database,Resolved,159,1,,False
+INC0057,T03,Monitoring,2026-06-22 15:58:00,2026-06-23 00:58:48,P2,Data Pipeline,Resolved,6824,5,,False
+INC0058,T03,Managed Database,2026-07-04 16:07:00,2026-07-05 05:54:22,P1,Network,Resolved,3393,3,DEP00314,False
+INC0059,T03,Compute,2026-06-30 16:35:00,2026-06-30 18:41:43,P3,Deployment,Resolved,859,1,,False
+INC0060,T03,Messaging,2026-07-09 13:20:00,2026-07-09 14:48:03,P3,Data Pipeline,Resolved,529,0,,False
+INC0061,T03,Monitoring,2026-07-14 21:02:00,2026-07-14 23:40:49,P3,Third-party,Resolved,224,1,,False
+INC0062,T03,Monitoring,2026-07-15 00:33:00,2026-07-15 03:59:50,P3,Third-party,Resolved,1227,3,,False
+INC0063,T03,Messaging,2026-08-02 11:40:00,2026-08-02 14:57:09,P2,Database,Resolved,1229,1,,False
+INC0064,T03,Monitoring,2026-08-06 02:19:00,2026-08-06 04:33:42,P3,Database,Resolved,586,1,DEP00331,True
+INC0065,T03,Managed Database,2026-08-11 18:27:00,2026-08-11 19:28:48,P2,Deployment,Resolved,6332,1,,False
+INC0066,T03,Monitoring,2026-08-19 20:21:00,2026-08-19 21:22:26,P3,Deployment,Resolved,1337,1,,False
+INC0067,T03,Messaging,2026-08-19 16:30:00,2026-08-19 20:39:57,P3,Capacity,Resolved,1088,1,DEP00344,False
+INC0068,T03,Managed Database,2026-09-04 22:07:00,2026-09-05 04:37:53,P2,Database,Resolved,3414,6,,False
+INC0069,T03,Messaging,2026-09-06 22:25:00,2026-09-07 01:30:10,P3,Data Pipeline,Resolved,1301,2,,False
+INC0070,T03,Monitoring,2026-09-06 07:28:00,2026-09-06 16:20:50,P2,Deployment,Resolved,2277,3,,False
+INC0071,T03,Compute,2026-09-01 21:26:00,,P4,Database,Open,172,3,,False
+INC0072,T03,Messaging,2026-09-16 00:54:00,2026-09-16 04:02:38,P3,Database,Resolved,1461,2,,False
+INC0073,T03,Monitoring,2026-09-14 22:49:00,2026-09-14 23:24:42,P4,Network,Resolved,63,0,,False
+INC0074,T03,Managed Database,2026-09-19 03:52:00,2026-09-19 08:22:21,P3,Unknown,Resolved,345,1,DEP00356,True
+INC0075,T03,Monitoring,2026-09-11 10:43:00,2026-09-11 11:45:16,P3,Unknown,Resolved,456,1,DEP00355,False
+INC0076,T03,Managed Database,2026-09-27 16:56:00,2026-09-27 20:22:43,P3,Database,Resolved,901,3,DEP00363,False
+INC0077,T03,Messaging,2026-09-22 18:31:00,2026-09-23 00:23:15,P2,Unknown,Resolved,2165,2,,False
+INC0078,T03,Messaging,2026-09-29 17:40:00,2026-09-29 18:57:37,P4,Deployment,Resolved,273,1,,False
+INC0079,T03,Messaging,2026-10-09 21:29:00,2026-10-09 23:54:34,P3,Deployment,Resolved,1195,1,,False
+INC0080,T03,Managed Database,2026-10-13 20:51:00,2026-10-13 21:31:03,P2,Data Pipeline,Resolved,4949,1,,False
+INC0081,T03,Order Services,2026-10-09 16:26:00,2026-10-09 23:11:09,P4,Deployment,Resolved,155,3,,False
+INC0082,T03,Messaging,2026-10-17 23:30:00,2026-10-18 03:11:14,P3,Deployment,Resolved,1409,2,,False
+INC0083,T03,Order Services,2026-10-09 18:59:00,2026-10-09 22:40:23,P2,Deployment,Resolved,2451,1,DEP00373,False
+INC0084,T03,Monitoring,2026-10-12 18:40:00,2026-10-12 20:40:21,P2,Network,Resolved,1380,2,,False
+INC0085,T03,Monitoring,2026-10-23 05:54:00,2026-10-23 06:40:39,P3,Data Pipeline,Resolved,414,0,,False
+INC0086,T03,Monitoring,2026-10-29 05:23:00,2026-10-29 07:28:22,P3,Data Pipeline,Resolved,591,2,,False
+INC0087,T04,Mobile API,2026-05-12 08:03:00,2026-05-12 12:08:21,P2,Deployment,Resolved,5961,1,,False
+INC0088,T04,Build Infrastructure,2026-05-13 09:12:00,,P2,Database,Open,6091,3,,False
+INC0089,T04,Mobile API,2026-05-30 05:10:00,2026-05-30 09:54:13,P2,Deployment,Resolved,1089,1,,False
+INC0090,T04,Object Storage,2026-06-14 00:18:00,2026-06-14 02:13:56,P3,Third-party,Resolved,543,1,,False
+INC0091,T04,Mobile API,2026-06-15 19:32:00,2026-06-15 21:38:59,P2,Deployment,Resolved,4288,2,,False
+INC0092,T04,CDN,2026-07-14 17:22:00,2026-07-15 00:50:00,P2,Capacity,Resolved,6210,3,,False
+INC0093,T04,Object Storage,2026-07-17 13:08:00,2026-07-17 16:12:46,P3,Deployment,Resolved,174,2,,False
+INC0094,T04,Object Storage,2026-07-13 02:37:00,2026-07-13 06:11:55,P3,Network,Resolved,915,4,,False
+INC0095,T04,CDN,2026-09-17 20:49:00,,P3,Database,Open,950,2,,False
+INC0096,T04,Mobile API,2026-09-30 14:23:00,2026-09-30 20:54:27,P2,Deployment,Resolved,6290,4,,False
+INC0097,T04,CDN,2026-10-31 10:18:00,2026-10-31 12:20:14,P3,Database,Resolved,551,1,,False
+INC0098,T05,Object Storage,2026-05-07 14:40:00,2026-05-07 15:30:57,P3,Network,Resolved,957,1,,False
+INC0099,T05,Data Warehouse,2026-06-09 16:33:00,2026-06-09 18:36:46,P4,Data Pipeline,Resolved,242,0,,False
+INC0100,T05,Object Storage,2026-07-06 06:18:00,2026-07-06 13:07:09,P1,Deployment,Resolved,2358,6,,False
+INC0101,T05,Data Warehouse,2026-08-06 05:05:00,2026-08-06 06:49:07,P3,Third-party,Resolved,133,1,,False
+INC0102,T05,Data Warehouse,2026-08-12 06:20:00,2026-08-12 12:09:46,P3,Deployment,Resolved,861,5,DEP00455,False
+INC0103,T05,ETL Orchestration,2026-09-26 21:30:00,2026-09-26 23:04:38,P4,Deployment,Resolved,263,1,,False
+INC0104,T05,Object Storage,2026-10-06 11:47:00,2026-10-06 14:31:03,P2,Deployment,Resolved,1537,2,,False
+INC0105,T05,Monitoring,2026-10-07 03:09:00,2026-10-07 06:08:17,P4,Capacity,Resolved,173,1,,False
+INC0106,T05,Compute,2026-10-25 22:07:00,2026-10-25 23:55:15,P3,Network,Resolved,670,1,,False
+INC0107,T05,Compute,2026-10-20 05:09:00,2026-10-20 06:15:09,P4,Data Pipeline,Resolved,264,0,,False
+INC0108,T05,Data Warehouse,2026-10-24 19:46:00,2026-10-24 22:54:09,P2,Third-party,Resolved,4747,3,,False
+INC0109,T05,Data Warehouse,2026-10-25 11:43:00,2026-10-25 23:48:05,P2,Network,Resolved,4943,4,,False
+INC0110,T06,Observability,2026-05-10 14:35:00,2026-05-10 19:06:25,P2,Network,Resolved,6468,4,,False
+INC0111,T06,Backup Storage,2026-05-06 06:01:00,2026-05-06 11:54:00,P3,Capacity,Resolved,807,3,,False
+INC0112,T06,Compute,2026-05-14 08:20:00,2026-05-14 12:27:29,P2,Unknown,Resolved,4606,3,,False
+INC0113,T06,Compute,2026-06-10 19:57:00,,P2,Database,Open,1532,4,,False
+INC0114,T06,Compute,2026-06-02 05:43:00,2026-06-02 16:10:25,P1,Database,Resolved,15690,10,DEP00506,True
+INC0115,T06,Kubernetes,2026-06-19 17:54:00,2026-06-19 20:35:00,P3,Capacity,Resolved,1434,2,,False
+INC0116,T06,Compute,2026-06-27 07:17:00,2026-06-27 10:01:19,P4,Network,Resolved,99,2,,False
+INC0117,T06,Compute,2026-07-11 21:20:00,2026-07-11 23:13:59,P3,Database,Resolved,786,1,,False
+INC0118,T06,Backup Storage,2026-07-12 03:32:00,2026-07-12 05:16:51,P3,Database,Resolved,194,2,,False
+INC0119,T06,Network Egress,2026-07-03 20:04:00,2026-07-03 23:42:21,P3,Network,Resolved,974,3,DEP00544,False
+INC0120,T06,Network Egress,2026-07-02 19:09:00,2026-07-02 20:21:19,P4,Unknown,Resolved,191,1,,False
+INC0121,T06,Kubernetes,2026-07-13 11:21:00,2026-07-13 12:37:49,P3,Network,Resolved,204,1,,False
+INC0122,T06,Backup Storage,2026-07-22 15:25:00,2026-07-22 21:44:53,P3,Database,Resolved,173,5,DEP00551,True
+INC0123,T06,Network Egress,2026-07-29 13:00:00,2026-07-29 18:36:03,P4,Unknown,Resolved,61,2,,False
+INC0124,T06,Compute,2026-07-30 04:07:00,2026-07-30 05:24:17,P3,Network,Resolved,1497,1,,False
+INC0125,T06,Observability,2026-08-01 15:36:00,2026-08-01 19:47:08,P2,Capacity,Resolved,4476,4,,False
+INC0126,T06,Kubernetes,2026-08-10 22:36:00,2026-08-10 23:28:32,P3,Network,Resolved,1447,1,,False
+INC0127,T06,Observability,2026-08-19 18:25:00,2026-08-19 20:30:07,P3,Data Pipeline,Resolved,691,1,,False
+INC0128,T06,Observability,2026-08-29 05:57:00,2026-08-29 09:04:13,P3,Database,Resolved,63,1,,False
+INC0129,T06,Network Egress,2026-09-06 01:00:00,2026-09-06 02:11:08,P3,Data Pipeline,Resolved,560,0,,False
+INC0130,T06,Kubernetes,2026-08-31 16:43:00,2026-08-31 18:19:20,P4,Data Pipeline,Resolved,284,1,,False
+INC0131,T06,Network Egress,2026-08-26 03:20:00,2026-08-26 06:19:02,P3,Database,Resolved,714,1,,False
+INC0132,T06,Compute,2026-09-11 00:04:00,2026-09-11 04:30:56,P3,Deployment,Resolved,409,4,DEP00602,True
+INC0133,T06,Backup Storage,2026-10-04 18:20:00,2026-10-04 21:50:21,P3,Deployment,Resolved,515,2,,False
+INC0134,T06,Backup Storage,2026-10-03 02:57:00,2026-10-03 12:21:19,P2,Network,Resolved,4102,3,,False
+INC0135,T06,Backup Storage,2026-10-29 18:24:00,2026-10-29 20:42:58,P2,Data Pipeline,Resolved,4964,2,,False
+INC0136,T06,Network Egress,2026-10-25 20:13:00,2026-10-25 22:25:19,P4,Capacity,Resolved,247,2,DEP00633,True
+INC0137,T06,Compute,2026-10-26 01:49:00,2026-10-26 08:29:56,P2,Third-party,Resolved,4812,2,,False
+INC0138,T07,API Gateway,2026-05-13 20:01:00,,P2,Network,Open,2995,0,,False
+INC0139,T07,API Gateway,2026-05-26 19:07:00,2026-05-26 20:13:53,P3,Capacity,Resolved,52,0,,False
+INC0140,T07,API Gateway,2026-06-05 14:47:00,,P4,Network,Open,77,0,DEP00647,False
+INC0141,T07,Messaging,2026-06-25 19:18:00,2026-06-26 00:40:29,P3,Network,Resolved,729,2,,False
+INC0142,T07,Monitoring,2026-06-30 07:10:00,2026-06-30 10:18:12,P3,Third-party,Resolved,132,1,,False
+INC0143,T07,Messaging,2026-07-30 15:43:00,2026-07-30 17:06:58,P4,Deployment,Resolved,256,1,,False
+INC0144,T07,Messaging,2026-08-16 00:59:00,2026-08-16 10:44:28,P2,Database,Resolved,4815,4,,False
+INC0145,T07,Monitoring,2026-09-10 17:58:00,2026-09-10 20:01:07,P3,Third-party,Resolved,844,2,,False
+INC0146,T07,Messaging,2026-09-19 16:01:00,2026-09-19 19:07:44,P4,Third-party,Resolved,131,1,,False
+INC0147,T07,API Gateway,2026-09-18 08:10:00,2026-09-18 09:15:03,P4,Third-party,Resolved,7,1,,False
+INC0148,T07,API Gateway,2026-10-23 19:17:00,2026-10-23 20:49:05,P3,Capacity,Resolved,965,1,DEP00684,True

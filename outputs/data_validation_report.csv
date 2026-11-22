@@ -1,0 +1,30 @@
+check,status,severity,detail
+teams primary key uniqueness,PASS,ERROR,Duplicate key rows: 0
+engineers primary key uniqueness,PASS,ERROR,Duplicate key rows: 0
+sprints primary key uniqueness,PASS,ERROR,Duplicate key rows: 0
+tasks primary key uniqueness,PASS,ERROR,Duplicate key rows: 0
+deployments primary key uniqueness,PASS,ERROR,Duplicate key rows: 0
+cloud_costs primary key uniqueness,PASS,ERROR,Duplicate key rows: 0
+incidents primary key uniqueness,PASS,ERROR,Duplicate key rows: 0
+capacity composite key uniqueness,PASS,ERROR,Duplicate date/team rows: 0
+engineers.team_id foreign key,PASS,ERROR,Orphan team references: 0
+sprints.team_id foreign key,PASS,ERROR,Orphan team references: 0
+tasks.team_id foreign key,PASS,ERROR,Orphan team references: 0
+deployments.team_id foreign key,PASS,ERROR,Orphan team references: 0
+cloud_costs.team_id foreign key,PASS,ERROR,Orphan team references: 0
+capacity.team_id foreign key,PASS,ERROR,Orphan team references: 0
+incidents.team_id foreign key,PASS,ERROR,Orphan team references: 0
+tasks.sprint_id foreign key,PASS,ERROR,Orphan sprint references: 0
+tasks.assignee_id foreign key,PASS,ERROR,Orphan non-null engineer references: 0
+deployments.engineer_id foreign key,PASS,ERROR,Orphan engineer references: 0
+incidents.related_deployment_id foreign key,PASS,ERROR,Orphan linked deployment references: 0
+task status values,PASS,ERROR,"Observed: ['Blocked', 'Done', 'In Progress', 'To Do']"
+deployment status values,PASS,ERROR,"Observed: ['Failed', 'Success']"
+cloud costs positive,PASS,ERROR,Minimum cost: 9.82 INR
+capacity hours non-negative,PASS,ERROR,Available and logged hours must be non-negative
+sprint dates ordered,PASS,ERROR,Every sprint end date must be on or after its start date
+completed tasks have completed_at,PASS,ERROR,Completed tasks missing completed_at: 0
+completed tasks have cycle time,PASS,ERROR,Completed tasks missing cycle_time_days: 0
+open incidents have blank resolved_at,PASS,ERROR,Open incidents with resolved_at: 0
+unassigned tasks allowed,PASS,INFO,Unassigned tasks: 21; intentional nullable field
+open incidents retained,PASS,INFO,Open/unresolved incidents: 8; excluded from MTTR

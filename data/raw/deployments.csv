@@ -1,0 +1,685 @@
+deployment_id,team_id,engineer_id,service_name,environment,deployed_at,status,duration_minutes,rollback_flag,commit_count,is_emergency
+DEP00001,T01,ENG007,Compute,Production,2026-05-12 13:49:00,Success,7.7,False,13,False
+DEP00002,T01,ENG003,Cache,Production,2026-05-06 20:55:00,Success,14.6,False,8,False
+DEP00003,T01,ENG006,Cache,Production,2026-05-08 12:17:00,Success,5.0,False,7,False
+DEP00004,T01,ENG003,Compute,Staging,2026-05-05 10:18:00,Failed,2.9,False,5,False
+DEP00005,T01,ENG008,Compute,Staging,2026-05-17 21:41:00,Success,5.1,True,1,False
+DEP00006,T01,ENG006,Cache,Staging,2026-05-27 11:52:00,Success,12.3,False,8,False
+DEP00007,T01,ENG007,Payment API,Production,2026-05-28 20:06:00,Success,10.9,False,11,False
+DEP00008,T01,ENG002,Managed Database,Staging,2026-05-30 11:42:00,Success,8.0,False,3,False
+DEP00009,T01,ENG004,Monitoring,Production,2026-05-31 18:58:00,Success,8.4,False,8,False
+DEP00010,T01,ENG008,Monitoring,Development,2026-05-29 10:02:00,Success,4.9,False,4,False
+DEP00011,T01,ENG003,Compute,Production,2026-06-02 15:57:00,Success,13.3,False,13,False
+DEP00012,T01,ENG005,Cache,Development,2026-06-08 15:24:00,Success,6.4,False,1,False
+DEP00013,T01,ENG003,Payment API,Production,2026-06-04 21:44:00,Success,7.2,False,7,False
+DEP00014,T01,ENG007,Compute,Development,2026-06-10 11:36:00,Success,7.3,False,2,False
+DEP00015,T01,ENG008,Compute,Staging,2026-06-08 15:50:00,Success,9.2,False,3,False
+DEP00016,T01,ENG004,Managed Database,Production,2026-06-08 08:38:00,Failed,8.3,True,8,False
+DEP00017,T01,ENG007,Managed Database,Staging,2026-06-06 20:40:00,Success,8.5,False,4,False
+DEP00018,T01,ENG007,Compute,Development,2026-06-14 12:18:00,Success,3.3,False,2,False
+DEP00019,T01,ENG001,Payment API,Development,2026-06-03 12:10:00,Success,10.0,False,2,False
+DEP00020,T01,ENG007,Managed Database,Development,2026-06-05 11:29:00,Success,10.1,False,3,False
+DEP00021,T01,ENG003,Monitoring,Production,2026-06-13 13:33:00,Success,5.8,False,9,False
+DEP00022,T01,ENG008,Monitoring,Production,2026-06-07 14:27:00,Success,31.8,False,8,False
+DEP00023,T01,ENG001,Cache,Production,2026-06-22 16:40:00,Success,8.1,False,9,False
+DEP00024,T01,ENG003,Compute,Production,2026-06-16 20:22:00,Success,3.2,False,7,False
+DEP00025,T01,ENG006,Cache,Staging,2026-06-20 13:13:00,Success,2.8,False,2,False
+DEP00026,T01,ENG004,Payment API,Staging,2026-06-19 19:58:00,Success,6.2,False,5,False
+DEP00027,T01,ENG006,Managed Database,Production,2026-06-17 08:50:00,Success,5.3,False,8,False
+DEP00028,T01,ENG004,Cache,Production,2026-06-19 21:46:00,Success,4.4,False,11,False
+DEP00029,T01,ENG001,Payment API,Production,2026-06-26 19:55:00,Success,9.1,False,5,False
+DEP00030,T01,ENG005,Managed Database,Production,2026-06-20 12:46:00,Success,5.6,False,10,False
+DEP00031,T01,ENG003,Cache,Production,2026-06-15 12:42:00,Success,11.5,False,12,False
+DEP00032,T01,ENG008,Cache,Staging,2026-06-17 15:42:00,Success,7.5,False,3,False
+DEP00033,T01,ENG007,Compute,Production,2026-07-09 18:49:00,Success,8.0,False,9,False
+DEP00034,T01,ENG006,Payment API,Staging,2026-07-02 15:38:00,Success,5.7,False,4,False
+DEP00035,T01,ENG007,Payment API,Production,2026-07-01 16:23:00,Failed,8.6,True,5,False
+DEP00036,T01,ENG005,Managed Database,Staging,2026-07-06 12:56:00,Success,5.4,False,4,False
+DEP00037,T01,ENG001,Cache,Production,2026-07-12 20:45:00,Success,5.7,False,9,False
+DEP00038,T01,ENG006,Cache,Production,2026-06-29 15:35:00,Success,3.3,False,7,False
+DEP00039,T01,ENG007,Managed Database,Staging,2026-07-07 15:17:00,Success,8.5,False,4,False
+DEP00040,T01,ENG005,Cache,Production,2026-07-12 08:44:00,Success,4.2,False,5,False
+DEP00041,T01,ENG001,Monitoring,Production,2026-07-04 09:56:00,Success,9.7,False,3,False
+DEP00042,T01,ENG002,Cache,Development,2026-07-09 18:18:00,Success,3.2,False,6,False
+DEP00043,T01,ENG005,Payment API,Production,2026-06-30 08:52:00,Success,11.8,False,9,False
+DEP00044,T01,ENG002,Monitoring,Production,2026-07-19 10:32:00,Success,6.7,False,9,False
+DEP00045,T01,ENG005,Monitoring,Production,2026-07-18 14:20:00,Success,10.1,False,9,False
+DEP00046,T01,ENG007,Payment API,Production,2026-07-24 17:53:00,Success,6.5,False,6,False
+DEP00047,T01,ENG008,Managed Database,Production,2026-07-21 20:27:00,Success,5.2,False,5,False
+DEP00048,T01,ENG007,Monitoring,Production,2026-07-19 17:04:00,Failed,15.8,True,11,True
+DEP00049,T01,ENG005,Compute,Development,2026-07-27 17:41:00,Success,8.1,False,2,False
+DEP00050,T01,ENG008,Managed Database,Production,2026-08-09 20:38:00,Success,6.9,False,9,False
+DEP00051,T01,ENG004,Cache,Production,2026-08-02 14:39:00,Success,14.2,False,4,True
+DEP00052,T01,ENG006,Cache,Production,2026-08-07 20:26:00,Success,7.9,False,7,False
+DEP00053,T01,ENG002,Managed Database,Production,2026-08-04 08:48:00,Success,9.2,False,7,False
+DEP00054,T01,ENG004,Cache,Production,2026-08-08 14:17:00,Success,7.5,False,13,False
+DEP00055,T01,ENG003,Managed Database,Production,2026-07-29 14:19:00,Success,5.9,False,7,False
+DEP00056,T01,ENG003,Managed Database,Production,2026-08-09 11:58:00,Success,10.6,False,8,False
+DEP00057,T01,ENG006,Managed Database,Production,2026-07-27 15:18:00,Success,20.4,False,10,False
+DEP00058,T01,ENG006,Compute,Staging,2026-08-03 14:27:00,Success,6.5,False,5,False
+DEP00059,T01,ENG005,Monitoring,Staging,2026-08-13 19:39:00,Success,11.9,False,6,False
+DEP00060,T01,ENG002,Monitoring,Development,2026-08-15 11:31:00,Success,11.8,False,3,False
+DEP00061,T01,ENG008,Monitoring,Production,2026-08-14 17:37:00,Success,6.4,False,4,False
+DEP00062,T01,ENG008,Payment API,Staging,2026-08-10 10:34:00,Success,9.7,False,4,False
+DEP00063,T01,ENG008,Monitoring,Production,2026-08-11 18:26:00,Success,3.7,False,9,False
+DEP00064,T01,ENG003,Compute,Production,2026-08-13 14:19:00,Success,8.0,False,10,True
+DEP00065,T01,ENG002,Managed Database,Staging,2026-08-20 17:12:00,Success,6.9,False,1,False
+DEP00066,T01,ENG008,Cache,Production,2026-08-13 11:04:00,Failed,9.0,False,9,False
+DEP00067,T01,ENG002,Cache,Development,2026-09-05 08:26:00,Success,15.8,False,7,False
+DEP00068,T01,ENG001,Managed Database,Production,2026-08-26 09:45:00,Success,15.3,False,6,False
+DEP00069,T01,ENG004,Compute,Production,2026-09-03 08:49:00,Success,11.3,False,10,False
+DEP00070,T01,ENG007,Monitoring,Staging,2026-09-04 08:51:00,Success,7.7,False,3,False
+DEP00071,T01,ENG002,Compute,Production,2026-09-03 08:59:00,Failed,9.8,True,4,False
+DEP00072,T01,ENG003,Monitoring,Production,2026-09-04 21:42:00,Success,6.7,False,11,False
+DEP00073,T01,ENG008,Compute,Staging,2026-08-28 18:39:00,Success,24.4,False,2,False
+DEP00074,T01,ENG005,Managed Database,Production,2026-09-04 13:02:00,Success,6.7,False,10,False
+DEP00075,T01,ENG005,Managed Database,Staging,2026-08-25 16:31:00,Success,7.9,False,8,False
+DEP00076,T01,ENG003,Managed Database,Staging,2026-09-15 16:20:00,Success,7.5,False,4,False
+DEP00077,T01,ENG004,Compute,Production,2026-09-07 15:49:00,Success,4.8,False,12,False
+DEP00078,T01,ENG005,Cache,Production,2026-09-15 15:35:00,Failed,12.4,True,7,False
+DEP00079,T01,ENG006,Monitoring,Development,2026-09-14 15:03:00,Success,10.7,False,6,False
+DEP00080,T01,ENG003,Monitoring,Development,2026-09-10 13:01:00,Success,4.9,False,5,False
+DEP00081,T01,ENG001,Payment API,Staging,2026-09-19 10:19:00,Success,11.9,False,1,False
+DEP00082,T01,ENG001,Monitoring,Development,2026-09-14 08:02:00,Success,16.3,False,3,False
+DEP00083,T01,ENG001,Managed Database,Production,2026-09-25 11:09:00,Success,9.2,False,11,False
+DEP00084,T01,ENG005,Managed Database,Production,2026-10-03 21:09:00,Success,10.6,False,12,False
+DEP00085,T01,ENG002,Payment API,Development,2026-09-22 16:55:00,Success,6.4,False,4,False
+DEP00086,T01,ENG002,Compute,Staging,2026-09-29 08:14:00,Success,5.9,False,3,False
+DEP00087,T01,ENG003,Payment API,Production,2026-10-02 13:17:00,Success,3.9,False,4,False
+DEP00088,T01,ENG001,Monitoring,Staging,2026-09-22 15:32:00,Success,16.3,False,5,True
+DEP00089,T01,ENG004,Payment API,Production,2026-09-22 15:24:00,Success,23.5,False,7,False
+DEP00090,T01,ENG002,Payment API,Staging,2026-10-02 16:36:00,Failed,21.2,False,7,False
+DEP00091,T01,ENG005,Payment API,Production,2026-10-01 20:39:00,Success,4.5,False,3,False
+DEP00092,T01,ENG005,Compute,Production,2026-09-23 11:36:00,Success,17.6,False,11,False
+DEP00093,T01,ENG006,Managed Database,Production,2026-09-24 18:50:00,Success,7.8,False,8,False
+DEP00094,T01,ENG003,Payment API,Production,2026-10-13 20:29:00,Success,12.4,False,7,False
+DEP00095,T01,ENG002,Cache,Staging,2026-10-06 16:34:00,Success,6.6,False,2,False
+DEP00096,T01,ENG008,Managed Database,Production,2026-10-11 20:41:00,Success,6.8,False,4,False
+DEP00097,T01,ENG005,Payment API,Staging,2026-10-12 16:39:00,Success,8.9,False,2,False
+DEP00098,T01,ENG006,Managed Database,Production,2026-10-10 15:18:00,Success,3.9,False,11,False
+DEP00099,T01,ENG003,Cache,Production,2026-10-17 16:55:00,Success,8.5,False,8,False
+DEP00100,T01,ENG003,Compute,Production,2026-10-11 14:31:00,Success,2.3,False,10,False
+DEP00101,T01,ENG003,Cache,Production,2026-10-17 14:03:00,Success,14.0,False,11,False
+DEP00102,T01,ENG008,Cache,Staging,2026-10-20 17:58:00,Success,4.2,False,4,False
+DEP00103,T01,ENG006,Cache,Production,2026-10-19 18:42:00,Success,9.0,False,9,False
+DEP00104,T01,ENG006,Payment API,Production,2026-10-28 11:42:00,Success,7.1,False,8,False
+DEP00105,T01,ENG003,Monitoring,Staging,2026-10-21 13:39:00,Success,20.2,False,5,False
+DEP00106,T01,ENG003,Managed Database,Production,2026-10-27 17:02:00,Success,15.9,False,9,False
+DEP00107,T01,ENG007,Payment API,Production,2026-10-25 18:22:00,Success,18.0,False,9,False
+DEP00108,T01,ENG007,Monitoring,Production,2026-10-27 11:31:00,Failed,7.3,True,9,False
+DEP00109,T01,ENG007,Compute,Development,2026-10-31 21:08:00,Success,3.3,False,3,False
+DEP00110,T01,ENG006,Payment API,Production,2026-10-28 16:48:00,Success,20.8,False,8,False
+DEP00111,T01,ENG006,Cache,Development,2026-10-27 20:12:00,Success,11.8,False,3,False
+DEP00112,T02,ENG016,Kubernetes,Production,2026-05-10 08:57:00,Success,12.5,False,8,False
+DEP00113,T02,ENG015,Managed Database,Production,2026-05-09 08:07:00,Success,7.9,False,11,True
+DEP00114,T02,ENG010,Logging,Production,2026-05-05 17:31:00,Success,2.2,False,6,False
+DEP00115,T02,ENG014,Compute,Production,2026-05-04 09:18:00,Success,3.0,False,8,False
+DEP00116,T02,ENG015,Network Egress,Production,2026-05-04 09:43:00,Success,13.9,False,7,False
+DEP00117,T02,ENG016,Managed Database,Production,2026-05-11 16:33:00,Success,7.0,False,10,False
+DEP00118,T02,ENG013,Kubernetes,Production,2026-05-11 12:43:00,Success,14.5,False,10,False
+DEP00119,T02,ENG014,Compute,Production,2026-05-05 16:35:00,Success,9.9,False,11,False
+DEP00120,T02,ENG015,Managed Database,Production,2026-05-04 17:31:00,Success,13.0,False,8,False
+DEP00121,T02,ENG013,Compute,Production,2026-05-04 12:31:00,Success,7.0,False,7,False
+DEP00122,T02,ENG010,Compute,Staging,2026-05-15 21:23:00,Success,10.1,False,3,False
+DEP00123,T02,ENG014,Kubernetes,Production,2026-05-12 12:27:00,Success,8.1,False,4,False
+DEP00124,T02,ENG017,Managed Database,Development,2026-05-07 17:53:00,Failed,13.4,False,7,False
+DEP00125,T02,ENG012,Kubernetes,Staging,2026-05-04 19:50:00,Success,8.9,False,2,False
+DEP00126,T02,ENG017,Logging,Production,2026-05-12 20:36:00,Success,5.4,False,16,False
+DEP00127,T02,ENG012,Logging,Production,2026-05-11 15:40:00,Success,10.2,False,13,False
+DEP00128,T02,ENG013,Compute,Staging,2026-05-09 12:37:00,Success,15.1,False,2,False
+DEP00129,T02,ENG011,Network Egress,Production,2026-05-22 09:25:00,Success,9.5,False,11,False
+DEP00130,T02,ENG014,Compute,Development,2026-05-25 14:30:00,Success,4.1,False,6,False
+DEP00131,T02,ENG014,Compute,Production,2026-05-29 17:48:00,Success,5.8,False,9,False
+DEP00132,T02,ENG010,Kubernetes,Development,2026-05-25 10:48:00,Success,7.5,False,3,False
+DEP00133,T02,ENG016,Kubernetes,Staging,2026-05-20 19:58:00,Success,12.4,False,3,False
+DEP00134,T02,ENG010,Network Egress,Production,2026-05-28 09:03:00,Success,8.8,False,8,False
+DEP00135,T02,ENG014,Compute,Staging,2026-05-23 21:56:00,Success,4.2,False,3,False
+DEP00136,T02,ENG017,Compute,Staging,2026-05-29 14:56:00,Success,8.7,False,7,False
+DEP00137,T02,ENG014,Compute,Staging,2026-05-21 17:03:00,Success,5.4,False,7,False
+DEP00138,T02,ENG016,Compute,Production,2026-05-29 18:22:00,Success,9.7,False,10,False
+DEP00139,T02,ENG013,Compute,Production,2026-05-27 10:02:00,Success,8.6,False,13,False
+DEP00140,T02,ENG015,Compute,Production,2026-05-27 10:16:00,Success,9.3,False,7,False
+DEP00141,T02,ENG014,Managed Database,Staging,2026-05-19 15:08:00,Success,8.3,False,5,False
+DEP00142,T02,ENG017,Logging,Production,2026-05-20 16:23:00,Success,10.9,False,6,False
+DEP00143,T02,ENG014,Logging,Production,2026-06-01 10:16:00,Success,13.6,False,5,False
+DEP00144,T02,ENG017,Compute,Production,2026-06-05 08:03:00,Success,22.6,False,12,False
+DEP00145,T02,ENG015,Compute,Staging,2026-06-09 21:03:00,Success,3.4,False,5,False
+DEP00146,T02,ENG014,Compute,Production,2026-06-02 08:33:00,Success,21.7,False,9,False
+DEP00147,T02,ENG012,Managed Database,Production,2026-06-08 13:59:00,Success,13.1,False,10,True
+DEP00148,T02,ENG014,Network Egress,Production,2026-06-07 19:42:00,Success,5.8,False,13,False
+DEP00149,T02,ENG016,Network Egress,Staging,2026-06-08 08:53:00,Success,3.3,False,5,False
+DEP00150,T02,ENG016,Kubernetes,Staging,2026-06-08 08:37:00,Success,4.6,False,2,False
+DEP00151,T02,ENG015,Managed Database,Staging,2026-06-11 16:29:00,Success,10.5,False,3,True
+DEP00152,T02,ENG017,Managed Database,Staging,2026-06-27 17:54:00,Success,7.0,False,4,False
+DEP00153,T02,ENG015,Kubernetes,Staging,2026-06-25 13:45:00,Success,20.2,False,3,False
+DEP00154,T02,ENG012,Compute,Staging,2026-06-20 12:24:00,Success,6.7,False,1,False
+DEP00155,T02,ENG017,Kubernetes,Staging,2026-06-20 12:54:00,Success,10.2,False,5,False
+DEP00156,T02,ENG014,Kubernetes,Staging,2026-06-26 12:24:00,Success,6.3,False,10,False
+DEP00157,T02,ENG013,Kubernetes,Development,2026-06-17 14:23:00,Success,6.9,False,3,False
+DEP00158,T02,ENG012,Logging,Staging,2026-06-25 11:35:00,Success,11.5,False,2,False
+DEP00159,T02,ENG014,Kubernetes,Production,2026-06-28 16:08:00,Success,20.3,False,6,False
+DEP00160,T02,ENG014,Managed Database,Staging,2026-06-27 15:23:00,Success,12.2,False,1,False
+DEP00161,T02,ENG012,Network Egress,Production,2026-06-20 11:00:00,Success,8.3,False,12,False
+DEP00162,T02,ENG012,Compute,Staging,2026-06-27 15:55:00,Success,17.9,False,1,False
+DEP00163,T02,ENG009,Network Egress,Staging,2026-06-28 14:47:00,Success,13.5,False,6,False
+DEP00164,T02,ENG017,Logging,Production,2026-06-20 12:32:00,Success,4.9,False,10,False
+DEP00165,T02,ENG012,Managed Database,Staging,2026-06-17 08:54:00,Success,3.6,False,5,False
+DEP00166,T02,ENG009,Network Egress,Development,2026-06-21 19:24:00,Success,7.7,False,5,False
+DEP00167,T02,ENG013,Network Egress,Production,2026-07-03 15:49:00,Success,16.6,False,5,False
+DEP00168,T02,ENG011,Managed Database,Production,2026-07-02 11:58:00,Success,5.9,False,9,False
+DEP00169,T02,ENG015,Compute,Production,2026-07-06 16:33:00,Failed,8.4,True,6,False
+DEP00170,T02,ENG009,Managed Database,Staging,2026-07-04 17:16:00,Success,10.0,False,2,False
+DEP00171,T02,ENG009,Logging,Staging,2026-07-11 13:05:00,Success,7.1,False,8,False
+DEP00172,T02,ENG010,Network Egress,Staging,2026-07-04 13:20:00,Success,19.7,False,7,False
+DEP00173,T02,ENG017,Managed Database,Staging,2026-07-11 16:55:00,Success,7.8,False,4,False
+DEP00174,T02,ENG012,Managed Database,Staging,2026-07-04 21:33:00,Success,13.3,False,5,False
+DEP00175,T02,ENG009,Compute,Production,2026-07-08 16:03:00,Success,10.7,False,9,False
+DEP00176,T02,ENG012,Network Egress,Development,2026-07-04 13:25:00,Success,7.7,False,2,False
+DEP00177,T02,ENG011,Network Egress,Staging,2026-07-12 14:20:00,Success,6.0,False,5,False
+DEP00178,T02,ENG016,Network Egress,Production,2026-07-03 21:14:00,Success,10.6,True,10,False
+DEP00179,T02,ENG015,Logging,Production,2026-07-08 18:18:00,Success,6.5,False,7,False
+DEP00180,T02,ENG017,Managed Database,Production,2026-07-02 10:01:00,Success,6.7,False,6,False
+DEP00181,T02,ENG012,Kubernetes,Production,2026-07-10 19:56:00,Success,12.8,False,7,False
+DEP00182,T02,ENG013,Managed Database,Production,2026-06-30 10:33:00,Success,11.1,False,9,False
+DEP00183,T02,ENG012,Managed Database,Production,2026-07-03 08:46:00,Success,6.8,False,8,False
+DEP00184,T02,ENG010,Logging,Production,2026-07-16 20:39:00,Success,6.7,False,5,False
+DEP00185,T02,ENG010,Compute,Staging,2026-07-21 17:08:00,Success,2.4,False,3,False
+DEP00186,T02,ENG013,Compute,Development,2026-07-18 08:14:00,Success,12.1,False,3,False
+DEP00187,T02,ENG011,Compute,Staging,2026-07-16 14:06:00,Success,10.3,False,3,False
+DEP00188,T02,ENG010,Logging,Staging,2026-07-18 11:35:00,Success,11.3,False,3,False
+DEP00189,T02,ENG014,Managed Database,Production,2026-07-24 21:39:00,Success,3.2,False,6,False
+DEP00190,T02,ENG012,Compute,Production,2026-08-02 09:28:00,Success,4.9,False,16,False
+DEP00191,T02,ENG011,Managed Database,Staging,2026-07-30 12:11:00,Success,8.5,False,5,False
+DEP00192,T02,ENG016,Compute,Staging,2026-08-04 17:36:00,Success,35.7,False,2,False
+DEP00193,T02,ENG009,Network Egress,Development,2026-08-08 11:49:00,Failed,5.1,False,1,False
+DEP00194,T02,ENG009,Managed Database,Production,2026-07-31 19:08:00,Success,22.8,False,6,False
+DEP00195,T02,ENG011,Managed Database,Production,2026-07-29 15:38:00,Success,38.9,False,4,False
+DEP00196,T02,ENG014,Network Egress,Production,2026-08-02 12:44:00,Success,7.4,False,12,False
+DEP00197,T02,ENG016,Logging,Production,2026-08-07 14:04:00,Success,3.2,False,11,False
+DEP00198,T02,ENG012,Compute,Production,2026-08-04 21:05:00,Success,21.9,False,8,False
+DEP00199,T02,ENG009,Kubernetes,Production,2026-08-06 15:06:00,Success,22.2,False,8,False
+DEP00200,T02,ENG014,Compute,Development,2026-07-31 09:20:00,Success,10.4,False,4,False
+DEP00201,T02,ENG016,Logging,Staging,2026-07-29 15:06:00,Success,6.4,False,3,False
+DEP00202,T02,ENG010,Network Egress,Production,2026-07-29 13:43:00,Success,12.0,False,7,False
+DEP00203,T02,ENG016,Compute,Production,2026-08-03 12:14:00,Success,25.5,False,7,False
+DEP00204,T02,ENG014,Network Egress,Staging,2026-08-06 15:22:00,Success,6.0,False,7,False
+DEP00205,T02,ENG011,Managed Database,Development,2026-08-06 17:01:00,Success,7.3,False,1,False
+DEP00206,T02,ENG012,Kubernetes,Staging,2026-08-04 20:27:00,Success,15.8,False,5,False
+DEP00207,T02,ENG016,Managed Database,Development,2026-08-17 08:10:00,Success,12.5,False,8,False
+DEP00208,T02,ENG015,Compute,Staging,2026-08-23 08:24:00,Success,10.7,False,6,False
+DEP00209,T02,ENG012,Network Egress,Staging,2026-08-11 13:28:00,Success,7.1,False,6,False
+DEP00210,T02,ENG010,Kubernetes,Production,2026-08-17 18:49:00,Success,9.5,False,8,False
+DEP00211,T02,ENG017,Compute,Production,2026-08-17 09:59:00,Success,12.5,False,8,False
+DEP00212,T02,ENG009,Kubernetes,Staging,2026-08-19 11:36:00,Success,12.6,False,5,False
+DEP00213,T02,ENG012,Compute,Production,2026-08-15 17:38:00,Success,7.9,False,3,False
+DEP00214,T02,ENG012,Compute,Staging,2026-08-13 16:26:00,Success,8.6,False,2,False
+DEP00215,T02,ENG013,Logging,Staging,2026-08-20 19:31:00,Success,15.6,False,6,False
+DEP00216,T02,ENG016,Kubernetes,Staging,2026-08-13 17:15:00,Success,13.2,False,1,False
+DEP00217,T02,ENG012,Logging,Production,2026-08-17 20:36:00,Success,8.7,False,6,False
+DEP00218,T02,ENG010,Network Egress,Production,2026-08-17 16:10:00,Success,4.1,False,8,False
+DEP00219,T02,ENG013,Kubernetes,Production,2026-08-17 21:50:00,Success,8.6,False,10,False
+DEP00220,T02,ENG017,Network Egress,Production,2026-08-20 16:18:00,Success,7.1,False,10,False
+DEP00221,T02,ENG016,Compute,Production,2026-08-11 13:16:00,Success,5.6,False,7,False
+DEP00222,T02,ENG016,Compute,Production,2026-08-10 17:45:00,Failed,3.3,True,11,False
+DEP00223,T02,ENG011,Compute,Development,2026-08-25 08:32:00,Success,10.4,False,6,False
+DEP00224,T02,ENG009,Kubernetes,Development,2026-09-06 11:07:00,Success,11.7,False,1,False
+DEP00225,T02,ENG017,Compute,Development,2026-09-06 16:49:00,Success,7.5,False,8,False
+DEP00226,T02,ENG016,Compute,Production,2026-09-01 21:32:00,Success,5.7,False,7,False
+DEP00227,T02,ENG014,Compute,Production,2026-09-03 12:23:00,Success,7.7,False,11,False
+DEP00228,T02,ENG009,Kubernetes,Staging,2026-09-04 17:53:00,Success,10.1,False,4,False
+DEP00229,T02,ENG015,Kubernetes,Staging,2026-08-29 13:43:00,Success,5.7,False,4,False
+DEP00230,T02,ENG016,Kubernetes,Staging,2026-08-28 10:18:00,Success,6.0,False,5,False
+DEP00231,T02,ENG017,Managed Database,Development,2026-08-25 08:41:00,Success,23.8,False,1,False
+DEP00232,T02,ENG016,Network Egress,Production,2026-08-24 21:55:00,Success,8.6,False,7,False
+DEP00233,T02,ENG017,Managed Database,Staging,2026-09-12 17:34:00,Success,4.2,False,5,False
+DEP00234,T02,ENG012,Logging,Production,2026-09-09 15:52:00,Success,11.8,False,10,False
+DEP00235,T02,ENG011,Compute,Staging,2026-09-09 17:29:00,Success,10.3,False,4,False
+DEP00236,T02,ENG016,Managed Database,Production,2026-09-20 09:05:00,Success,9.1,False,5,False
+DEP00237,T02,ENG016,Managed Database,Production,2026-09-18 10:48:00,Success,10.1,False,6,False
+DEP00238,T02,ENG016,Compute,Staging,2026-09-12 14:14:00,Success,19.3,False,5,False
+DEP00239,T02,ENG009,Network Egress,Production,2026-09-10 12:42:00,Success,10.0,False,10,False
+DEP00240,T02,ENG010,Network Egress,Development,2026-09-10 21:03:00,Success,14.3,False,4,False
+DEP00241,T02,ENG011,Network Egress,Production,2026-09-19 15:46:00,Success,3.2,False,10,False
+DEP00242,T02,ENG011,Managed Database,Production,2026-09-14 17:00:00,Success,3.0,False,7,False
+DEP00243,T02,ENG014,Network Egress,Production,2026-09-11 18:27:00,Success,8.5,False,5,False
+DEP00244,T02,ENG016,Compute,Production,2026-09-20 10:13:00,Success,15.0,False,4,False
+DEP00245,T02,ENG010,Network Egress,Production,2026-09-09 18:29:00,Success,10.7,False,10,False
+DEP00246,T02,ENG009,Compute,Staging,2026-09-08 13:49:00,Success,12.4,False,4,False
+DEP00247,T02,ENG017,Logging,Production,2026-09-30 18:05:00,Failed,4.2,False,6,False
+DEP00248,T02,ENG012,Managed Database,Production,2026-09-22 12:41:00,Success,13.7,False,16,False
+DEP00249,T02,ENG011,Kubernetes,Production,2026-09-25 12:49:00,Success,4.6,False,10,False
+DEP00250,T02,ENG012,Kubernetes,Development,2026-09-30 15:19:00,Success,16.0,False,2,False
+DEP00251,T02,ENG011,Network Egress,Production,2026-10-02 17:05:00,Success,14.4,False,4,False
+DEP00252,T02,ENG013,Network Egress,Development,2026-09-24 16:35:00,Success,4.8,False,7,False
+DEP00253,T02,ENG012,Network Egress,Production,2026-09-27 18:44:00,Success,7.0,False,8,False
+DEP00254,T02,ENG013,Network Egress,Production,2026-09-29 18:22:00,Success,13.8,False,8,False
+DEP00255,T02,ENG017,Kubernetes,Development,2026-10-16 19:24:00,Success,4.2,False,1,False
+DEP00256,T02,ENG013,Managed Database,Production,2026-10-11 15:25:00,Success,9.0,False,3,False
+DEP00257,T02,ENG009,Logging,Staging,2026-10-12 12:56:00,Success,9.4,False,4,False
+DEP00258,T02,ENG011,Compute,Production,2026-10-17 20:49:00,Success,6.4,False,7,False
+DEP00259,T02,ENG016,Kubernetes,Staging,2026-10-11 21:50:00,Success,9.6,False,8,False
+DEP00260,T02,ENG011,Kubernetes,Staging,2026-10-13 12:22:00,Success,11.3,False,6,False
+DEP00261,T02,ENG010,Compute,Production,2026-10-09 14:22:00,Success,3.3,False,9,False
+DEP00262,T02,ENG014,Compute,Production,2026-10-16 15:59:00,Success,7.3,False,6,False
+DEP00263,T02,ENG010,Managed Database,Production,2026-10-05 21:27:00,Success,15.0,False,7,False
+DEP00264,T02,ENG011,Kubernetes,Staging,2026-10-13 14:56:00,Success,5.1,False,1,False
+DEP00265,T02,ENG016,Kubernetes,Development,2026-10-13 17:58:00,Success,9.0,False,2,False
+DEP00266,T02,ENG009,Managed Database,Production,2026-10-14 10:43:00,Success,10.4,False,7,False
+DEP00267,T02,ENG016,Logging,Production,2026-10-16 21:19:00,Success,5.3,False,6,False
+DEP00268,T02,ENG017,Managed Database,Staging,2026-10-14 13:09:00,Success,13.4,False,4,False
+DEP00269,T02,ENG016,Managed Database,Production,2026-10-13 16:11:00,Failed,11.0,True,6,False
+DEP00270,T02,ENG014,Network Egress,Production,2026-10-24 16:08:00,Success,6.7,False,9,False
+DEP00271,T02,ENG012,Logging,Production,2026-10-31 19:47:00,Success,12.0,False,11,False
+DEP00272,T02,ENG016,Compute,Development,2026-10-21 13:26:00,Success,11.1,False,6,False
+DEP00273,T02,ENG010,Kubernetes,Staging,2026-10-23 19:19:00,Success,8.4,False,2,False
+DEP00274,T02,ENG013,Kubernetes,Development,2026-10-24 16:04:00,Success,11.6,False,8,False
+DEP00275,T02,ENG010,Managed Database,Production,2026-10-20 14:23:00,Failed,9.0,True,8,False
+DEP00276,T02,ENG016,Kubernetes,Production,2026-10-31 21:12:00,Success,7.2,False,7,False
+DEP00277,T02,ENG009,Logging,Production,2026-10-28 19:44:00,Success,12.5,False,6,False
+DEP00278,T02,ENG009,Kubernetes,Staging,2026-10-19 20:57:00,Success,14.6,False,1,False
+DEP00279,T02,ENG013,Managed Database,Development,2026-10-28 09:52:00,Success,2.8,False,4,False
+DEP00280,T02,ENG015,Network Egress,Production,2026-10-29 08:27:00,Success,10.8,False,7,False
+DEP00281,T02,ENG015,Logging,Staging,2026-10-23 09:43:00,Success,14.0,False,4,False
+DEP00282,T02,ENG013,Kubernetes,Staging,2026-10-22 10:09:00,Success,3.3,False,3,False
+DEP00283,T02,ENG010,Kubernetes,Staging,2026-11-01 11:21:00,Success,9.3,False,3,False
+DEP00284,T03,ENG019,Order Services,Staging,2026-05-17 11:48:00,Success,9.3,False,2,False
+DEP00285,T03,ENG024,Managed Database,Production,2026-05-07 12:38:00,Success,11.5,False,11,False
+DEP00286,T03,ENG019,Compute,Production,2026-05-09 15:09:00,Success,8.7,False,11,False
+DEP00287,T03,ENG026,Compute,Production,2026-05-07 08:25:00,Success,11.8,False,8,False
+DEP00288,T03,ENG020,Order Services,Production,2026-05-27 08:25:00,Success,13.0,False,13,False
+DEP00289,T03,ENG020,Monitoring,Production,2026-05-26 18:02:00,Success,22.2,False,13,False
+DEP00290,T03,ENG023,Managed Database,Development,2026-05-25 21:17:00,Success,10.6,False,2,False
+DEP00291,T03,ENG024,Order Services,Production,2026-05-31 10:40:00,Success,10.8,False,7,False
+DEP00292,T03,ENG024,Messaging,Production,2026-05-23 18:44:00,Success,14.1,False,11,False
+DEP00293,T03,ENG026,Messaging,Staging,2026-05-27 08:22:00,Success,4.1,False,2,False
+DEP00294,T03,ENG023,Messaging,Staging,2026-05-22 18:51:00,Success,6.3,False,1,False
+DEP00295,T03,ENG023,Messaging,Staging,2026-05-22 18:44:00,Success,7.7,False,3,False
+DEP00296,T03,ENG022,Monitoring,Production,2026-05-24 15:21:00,Failed,6.9,True,6,False
+DEP00297,T03,ENG025,Messaging,Staging,2026-06-12 15:09:00,Success,6.8,False,6,False
+DEP00298,T03,ENG025,Order Services,Staging,2026-06-04 11:35:00,Success,4.1,False,8,False
+DEP00299,T03,ENG021,Monitoring,Development,2026-06-09 13:31:00,Success,8.5,False,6,False
+DEP00300,T03,ENG021,Managed Database,Staging,2026-06-12 19:38:00,Success,13.9,False,4,False
+DEP00301,T03,ENG020,Compute,Staging,2026-06-08 19:19:00,Success,4.3,False,3,False
+DEP00302,T03,ENG022,Monitoring,Staging,2026-06-01 13:47:00,Failed,6.6,True,2,False
+DEP00303,T03,ENG018,Monitoring,Production,2026-06-07 10:01:00,Failed,4.7,True,5,False
+DEP00304,T03,ENG022,Compute,Production,2026-06-10 08:58:00,Success,5.9,False,5,False
+DEP00305,T03,ENG022,Monitoring,Production,2026-06-14 14:33:00,Success,5.0,False,9,False
+DEP00306,T03,ENG019,Compute,Staging,2026-06-15 16:45:00,Success,16.0,False,2,False
+DEP00307,T03,ENG026,Order Services,Production,2026-06-18 14:12:00,Success,4.8,False,10,False
+DEP00308,T03,ENG023,Monitoring,Production,2026-06-26 21:07:00,Success,10.4,False,8,False
+DEP00309,T03,ENG025,Order Services,Production,2026-06-17 09:17:00,Success,9.2,False,8,False
+DEP00310,T03,ENG025,Monitoring,Production,2026-06-22 18:17:00,Success,7.3,False,5,False
+DEP00311,T03,ENG027,Managed Database,Staging,2026-06-16 15:09:00,Success,3.5,False,6,False
+DEP00312,T03,ENG025,Messaging,Production,2026-06-27 08:12:00,Failed,13.8,True,10,False
+DEP00313,T03,ENG023,Messaging,Staging,2026-06-30 14:33:00,Success,4.7,False,8,False
+DEP00314,T03,ENG022,Managed Database,Production,2026-07-03 17:00:00,Success,7.0,False,9,False
+DEP00315,T03,ENG018,Managed Database,Staging,2026-07-06 12:47:00,Success,29.4,False,3,False
+DEP00316,T03,ENG022,Monitoring,Development,2026-06-29 18:46:00,Success,8.6,False,3,False
+DEP00317,T03,ENG018,Monitoring,Production,2026-07-13 11:02:00,Success,9.4,False,9,False
+DEP00318,T03,ENG019,Managed Database,Production,2026-07-13 16:46:00,Success,6.6,False,9,False
+DEP00319,T03,ENG026,Compute,Development,2026-07-20 20:02:00,Success,8.7,False,2,False
+DEP00320,T03,ENG019,Monitoring,Development,2026-07-16 09:55:00,Success,10.6,False,2,False
+DEP00321,T03,ENG018,Monitoring,Staging,2026-07-15 16:19:00,Success,3.4,False,3,False
+DEP00322,T03,ENG021,Messaging,Production,2026-07-25 10:45:00,Success,10.3,False,8,False
+DEP00323,T03,ENG021,Order Services,Production,2026-07-24 08:55:00,Success,16.5,False,6,False
+DEP00324,T03,ENG025,Order Services,Staging,2026-07-18 15:53:00,Success,15.6,False,2,False
+DEP00325,T03,ENG022,Monitoring,Production,2026-07-17 19:35:00,Success,9.3,False,9,False
+DEP00326,T03,ENG027,Order Services,Staging,2026-07-19 16:34:00,Success,8.6,False,5,False
+DEP00327,T03,ENG027,Messaging,Production,2026-07-14 08:57:00,Success,11.5,False,9,False
+DEP00328,T03,ENG025,Monitoring,Staging,2026-08-04 10:52:00,Success,3.6,False,4,False
+DEP00329,T03,ENG025,Messaging,Production,2026-08-07 16:26:00,Success,4.3,False,12,False
+DEP00330,T03,ENG022,Messaging,Production,2026-08-09 21:17:00,Success,13.0,False,7,False
+DEP00331,T03,ENG019,Managed Database,Production,2026-08-04 21:23:00,Success,12.7,False,8,False
+DEP00332,T03,ENG023,Managed Database,Staging,2026-08-04 18:21:00,Success,18.7,False,4,False
+DEP00333,T03,ENG023,Order Services,Production,2026-08-08 19:28:00,Success,14.2,False,7,False
+DEP00334,T03,ENG022,Monitoring,Production,2026-07-29 19:00:00,Success,14.5,False,10,False
+DEP00335,T03,ENG024,Compute,Staging,2026-08-06 18:16:00,Success,7.9,False,5,False
+DEP00336,T03,ENG027,Order Services,Staging,2026-08-06 12:45:00,Success,16.0,False,4,False
+DEP00337,T03,ENG021,Managed Database,Production,2026-08-19 18:46:00,Success,8.1,False,11,False
+DEP00338,T03,ENG025,Monitoring,Production,2026-08-11 09:16:00,Success,6.7,False,10,False
+DEP00339,T03,ENG021,Messaging,Production,2026-08-23 15:47:00,Success,8.9,False,12,False
+DEP00340,T03,ENG022,Monitoring,Staging,2026-08-18 18:40:00,Success,17.4,False,6,False
+DEP00341,T03,ENG027,Order Services,Staging,2026-08-22 12:59:00,Success,13.7,False,4,False
+DEP00342,T03,ENG019,Messaging,Production,2026-08-22 21:35:00,Success,6.8,False,10,False
+DEP00343,T03,ENG024,Order Services,Production,2026-08-22 19:45:00,Success,5.0,False,7,False
+DEP00344,T03,ENG026,Compute,Production,2026-08-17 10:04:00,Success,5.1,False,8,False
+DEP00345,T03,ENG024,Monitoring,Development,2026-08-23 08:11:00,Success,13.0,False,4,False
+DEP00346,T03,ENG024,Compute,Production,2026-09-01 18:27:00,Success,4.8,False,9,False
+DEP00347,T03,ENG020,Order Services,Production,2026-09-02 08:54:00,Success,9.1,False,6,False
+DEP00348,T03,ENG023,Monitoring,Development,2026-08-29 13:33:00,Success,9.2,False,4,False
+DEP00349,T03,ENG025,Messaging,Production,2026-09-10 19:12:00,Success,10.0,False,8,False
+DEP00350,T03,ENG025,Managed Database,Staging,2026-09-11 12:58:00,Success,11.2,False,4,False
+DEP00351,T03,ENG019,Monitoring,Staging,2026-09-20 09:29:00,Success,11.5,False,4,False
+DEP00352,T03,ENG025,Order Services,Production,2026-09-08 16:37:00,Success,25.5,False,8,False
+DEP00353,T03,ENG024,Compute,Production,2026-09-09 10:09:00,Success,11.8,False,7,False
+DEP00354,T03,ENG019,Managed Database,Development,2026-09-10 19:56:00,Success,7.6,False,3,False
+DEP00355,T03,ENG027,Messaging,Production,2026-09-10 21:12:00,Success,12.9,False,9,False
+DEP00356,T03,ENG022,Messaging,Production,2026-09-16 15:19:00,Success,14.2,False,13,False
+DEP00357,T03,ENG018,Messaging,Production,2026-09-27 20:24:00,Success,7.6,False,6,True
+DEP00358,T03,ENG022,Managed Database,Production,2026-10-01 09:27:00,Success,6.9,False,6,False
+DEP00359,T03,ENG020,Managed Database,Staging,2026-09-24 10:24:00,Success,4.6,False,6,False
+DEP00360,T03,ENG025,Messaging,Production,2026-09-30 19:02:00,Success,6.7,False,18,False
+DEP00361,T03,ENG022,Order Services,Staging,2026-09-29 11:08:00,Success,9.9,False,6,False
+DEP00362,T03,ENG021,Order Services,Production,2026-10-02 10:54:00,Success,7.7,False,9,False
+DEP00363,T03,ENG026,Monitoring,Production,2026-09-26 21:49:00,Success,3.2,False,9,False
+DEP00364,T03,ENG023,Order Services,Development,2026-10-02 16:24:00,Success,4.0,False,1,False
+DEP00365,T03,ENG026,Order Services,Production,2026-10-02 20:56:00,Success,9.6,False,8,False
+DEP00366,T03,ENG018,Managed Database,Staging,2026-09-21 17:47:00,Success,6.4,False,5,False
+DEP00367,T03,ENG027,Messaging,Staging,2026-09-23 16:28:00,Success,5.8,False,5,False
+DEP00368,T03,ENG018,Compute,Staging,2026-10-04 19:38:00,Success,8.3,False,1,False
+DEP00369,T03,ENG021,Monitoring,Production,2026-10-06 12:49:00,Success,14.2,False,5,False
+DEP00370,T03,ENG019,Managed Database,Production,2026-10-05 18:27:00,Success,13.3,False,4,False
+DEP00371,T03,ENG019,Order Services,Development,2026-10-17 10:28:00,Success,18.0,False,5,False
+DEP00372,T03,ENG022,Managed Database,Production,2026-10-18 13:25:00,Success,16.5,False,4,False
+DEP00373,T03,ENG023,Order Services,Production,2026-10-07 17:38:00,Success,13.2,False,5,False
+DEP00374,T03,ENG022,Managed Database,Development,2026-10-12 10:08:00,Failed,4.0,False,2,False
+DEP00375,T03,ENG026,Order Services,Production,2026-10-07 13:36:00,Success,19.3,False,12,False
+DEP00376,T03,ENG027,Compute,Development,2026-10-05 08:07:00,Success,15.8,False,2,False
+DEP00377,T03,ENG018,Messaging,Production,2026-10-25 10:07:00,Failed,6.5,True,7,False
+DEP00378,T03,ENG019,Order Services,Production,2026-10-23 09:18:00,Success,6.1,False,6,False
+DEP00379,T03,ENG022,Monitoring,Production,2026-10-28 16:12:00,Success,12.8,False,8,False
+DEP00380,T03,ENG019,Messaging,Production,2026-10-29 12:51:00,Success,8.1,False,10,False
+DEP00381,T03,ENG018,Messaging,Development,2026-10-28 08:46:00,Success,10.1,False,6,False
+DEP00382,T03,ENG025,Compute,Staging,2026-10-23 12:14:00,Success,6.0,False,1,False
+DEP00383,T03,ENG021,Managed Database,Staging,2026-10-20 18:16:00,Success,4.6,False,1,False
+DEP00384,T03,ENG020,Monitoring,Staging,2026-10-30 12:37:00,Success,9.8,False,5,False
+DEP00385,T04,ENG034,Mobile API,Production,2026-05-05 13:13:00,Success,8.7,False,11,True
+DEP00386,T04,ENG034,Crash Analytics,Staging,2026-05-09 11:37:00,Success,9.2,False,5,False
+DEP00387,T04,ENG034,CDN,Development,2026-05-05 18:47:00,Success,9.3,False,2,False
+DEP00388,T04,ENG031,Crash Analytics,Production,2026-05-23 19:56:00,Success,13.5,False,7,False
+DEP00389,T04,ENG030,Mobile API,Staging,2026-06-24 16:58:00,Success,10.2,False,1,False
+DEP00390,T04,ENG028,CDN,Production,2026-06-21 14:05:00,Success,11.9,False,6,False
+DEP00391,T04,ENG032,Mobile API,Production,2026-06-26 15:54:00,Success,7.2,False,7,False
+DEP00392,T04,ENG028,CDN,Production,2026-06-20 20:21:00,Success,6.5,False,11,False
+DEP00393,T04,ENG031,Build Infrastructure,Production,2026-06-20 16:26:00,Success,12.4,False,6,False
+DEP00394,T04,ENG032,Mobile API,Production,2026-07-12 15:04:00,Success,18.2,False,6,False
+DEP00395,T04,ENG031,Mobile API,Staging,2026-07-08 15:19:00,Success,8.2,False,2,False
+DEP00396,T04,ENG030,Crash Analytics,Production,2026-07-06 11:34:00,Success,11.8,False,10,True
+DEP00397,T04,ENG030,Object Storage,Staging,2026-07-15 14:24:00,Success,2.6,False,4,False
+DEP00398,T04,ENG031,Crash Analytics,Production,2026-07-15 14:09:00,Success,13.3,False,11,False
+DEP00399,T04,ENG033,CDN,Staging,2026-07-21 18:13:00,Success,2.9,False,2,False
+DEP00400,T04,ENG032,Build Infrastructure,Development,2026-07-15 10:49:00,Success,4.9,False,3,False
+DEP00401,T04,ENG030,Mobile API,Staging,2026-08-06 09:26:00,Failed,5.0,False,3,False
+DEP00402,T04,ENG032,Crash Analytics,Production,2026-08-04 09:23:00,Success,7.4,False,4,False
+DEP00403,T04,ENG030,Mobile API,Production,2026-08-20 12:57:00,Success,17.1,False,6,False
+DEP00404,T04,ENG030,Object Storage,Development,2026-08-20 10:03:00,Success,15.9,False,4,False
+DEP00405,T04,ENG034,Mobile API,Staging,2026-08-19 14:43:00,Success,9.3,False,3,False
+DEP00406,T04,ENG032,CDN,Production,2026-08-24 17:46:00,Success,10.2,False,8,False
+DEP00407,T04,ENG028,Build Infrastructure,Production,2026-09-04 12:16:00,Success,4.3,False,10,False
+DEP00408,T04,ENG030,Mobile API,Staging,2026-08-31 18:17:00,Success,12.3,False,4,False
+DEP00409,T04,ENG028,Object Storage,Production,2026-08-31 16:00:00,Success,4.4,False,5,False
+DEP00410,T04,ENG031,Mobile API,Development,2026-09-07 14:14:00,Success,7.7,False,5,False
+DEP00411,T04,ENG028,Build Infrastructure,Production,2026-09-16 18:20:00,Success,4.9,False,2,True
+DEP00412,T04,ENG028,Crash Analytics,Production,2026-09-13 09:44:00,Failed,12.5,True,4,False
+DEP00413,T04,ENG029,Crash Analytics,Production,2026-09-15 15:44:00,Success,9.1,False,5,False
+DEP00414,T04,ENG030,Object Storage,Development,2026-09-28 20:08:00,Success,5.8,False,3,False
+DEP00415,T04,ENG034,Object Storage,Development,2026-09-23 10:28:00,Success,13.0,False,4,False
+DEP00416,T04,ENG031,Build Infrastructure,Staging,2026-10-04 12:22:00,Success,22.3,False,1,False
+DEP00417,T04,ENG031,Build Infrastructure,Production,2026-09-30 20:57:00,Success,5.4,False,6,False
+DEP00418,T04,ENG031,CDN,Staging,2026-10-05 20:00:00,Success,11.3,False,3,False
+DEP00419,T04,ENG032,Object Storage,Staging,2026-10-20 18:51:00,Success,13.2,False,5,False
+DEP00420,T04,ENG032,Mobile API,Staging,2026-10-23 08:32:00,Success,6.7,False,5,False
+DEP00421,T04,ENG030,Build Infrastructure,Staging,2026-10-19 18:09:00,Success,11.4,False,1,False
+DEP00422,T04,ENG032,Mobile API,Development,2026-10-29 18:12:00,Success,10.2,False,7,False
+DEP00423,T04,ENG028,CDN,Production,2026-10-20 17:16:00,Success,14.5,False,6,False
+DEP00424,T04,ENG034,CDN,Production,2026-10-19 09:34:00,Success,9.8,False,5,False
+DEP00425,T04,ENG030,CDN,Production,2026-10-27 15:34:00,Success,11.6,True,6,False
+DEP00426,T05,ENG037,Data Warehouse,Production,2026-05-04 08:53:00,Success,10.8,False,11,False
+DEP00427,T05,ENG036,Object Storage,Development,2026-05-17 21:42:00,Success,2.8,False,6,False
+DEP00428,T05,ENG040,Monitoring,Staging,2026-05-05 13:47:00,Success,13.6,False,1,False
+DEP00429,T05,ENG037,Object Storage,Production,2026-05-26 13:13:00,Success,20.3,False,6,False
+DEP00430,T05,ENG039,Object Storage,Production,2026-05-24 15:41:00,Success,13.0,False,9,False
+DEP00431,T05,ENG037,Data Warehouse,Staging,2026-05-27 16:36:00,Success,14.9,False,4,False
+DEP00432,T05,ENG035,ETL Orchestration,Production,2026-05-23 15:52:00,Success,11.8,False,5,False
+DEP00433,T05,ENG037,Data Warehouse,Development,2026-05-21 12:05:00,Success,2.9,False,3,False
+DEP00434,T05,ENG039,ETL Orchestration,Development,2026-06-02 17:51:00,Success,11.5,False,4,False
+DEP00435,T05,ENG037,Monitoring,Development,2026-06-13 21:56:00,Success,4.8,False,6,False
+DEP00436,T05,ENG039,Compute,Development,2026-06-10 15:31:00,Success,8.3,False,4,False
+DEP00437,T05,ENG037,Compute,Production,2026-06-01 16:50:00,Success,9.3,False,11,False
+DEP00438,T05,ENG038,Data Warehouse,Production,2026-06-06 19:51:00,Success,11.2,False,9,False
+DEP00439,T05,ENG036,Monitoring,Production,2026-06-07 10:03:00,Success,14.7,False,14,False
+DEP00440,T05,ENG037,ETL Orchestration,Staging,2026-06-18 15:26:00,Success,17.8,False,2,False
+DEP00441,T05,ENG038,ETL Orchestration,Production,2026-06-16 20:42:00,Success,8.8,False,10,True
+DEP00442,T05,ENG035,ETL Orchestration,Production,2026-06-27 19:22:00,Success,12.3,False,8,False
+DEP00443,T05,ENG040,Monitoring,Production,2026-06-23 12:02:00,Success,6.1,False,4,True
+DEP00444,T05,ENG040,Compute,Production,2026-07-05 21:54:00,Success,10.0,False,9,True
+DEP00445,T05,ENG036,Monitoring,Production,2026-07-03 09:28:00,Success,16.5,False,13,False
+DEP00446,T05,ENG037,ETL Orchestration,Production,2026-07-11 19:03:00,Success,12.1,False,9,False
+DEP00447,T05,ENG036,Compute,Development,2026-07-11 09:24:00,Success,7.9,False,3,False
+DEP00448,T05,ENG037,Monitoring,Production,2026-07-13 16:55:00,Success,18.5,False,6,True
+DEP00449,T05,ENG036,Object Storage,Production,2026-07-14 11:16:00,Success,7.8,False,4,False
+DEP00450,T05,ENG035,ETL Orchestration,Production,2026-07-15 09:06:00,Success,11.6,False,4,False
+DEP00451,T05,ENG037,Object Storage,Production,2026-07-22 10:44:00,Success,8.0,False,4,False
+DEP00452,T05,ENG035,ETL Orchestration,Production,2026-08-01 19:38:00,Failed,13.7,True,9,False
+DEP00453,T05,ENG038,Compute,Production,2026-08-09 09:35:00,Success,18.9,False,8,False
+DEP00454,T05,ENG040,Object Storage,Development,2026-08-06 08:15:00,Success,6.6,False,5,False
+DEP00455,T05,ENG037,Object Storage,Production,2026-08-09 21:31:00,Success,12.8,False,9,False
+DEP00456,T05,ENG036,Object Storage,Staging,2026-08-04 20:33:00,Success,3.7,False,3,False
+DEP00457,T05,ENG040,Monitoring,Development,2026-08-13 10:55:00,Success,15.9,False,9,False
+DEP00458,T05,ENG039,Compute,Staging,2026-08-16 19:37:00,Success,5.4,False,5,False
+DEP00459,T05,ENG035,Monitoring,Production,2026-09-01 19:15:00,Success,6.1,False,8,False
+DEP00460,T05,ENG037,Monitoring,Production,2026-09-05 08:49:00,Failed,3.5,True,4,False
+DEP00461,T05,ENG037,Object Storage,Staging,2026-09-05 21:55:00,Success,9.9,False,5,False
+DEP00462,T05,ENG039,Compute,Development,2026-09-04 19:53:00,Success,13.1,False,4,False
+DEP00463,T05,ENG035,ETL Orchestration,Production,2026-08-28 09:53:00,Success,7.9,False,12,False
+DEP00464,T05,ENG038,Compute,Staging,2026-09-04 12:14:00,Success,13.1,False,3,False
+DEP00465,T05,ENG037,Object Storage,Production,2026-09-12 21:35:00,Success,10.0,False,7,False
+DEP00466,T05,ENG040,Data Warehouse,Production,2026-09-16 10:20:00,Success,8.4,False,7,True
+DEP00467,T05,ENG038,Object Storage,Development,2026-09-19 08:24:00,Success,8.8,True,4,False
+DEP00468,T05,ENG035,Monitoring,Production,2026-09-12 18:53:00,Success,4.3,False,13,False
+DEP00469,T05,ENG039,Monitoring,Staging,2026-09-07 08:42:00,Success,10.2,False,5,False
+DEP00470,T05,ENG039,ETL Orchestration,Production,2026-09-17 18:08:00,Success,8.6,False,7,False
+DEP00471,T05,ENG035,Object Storage,Development,2026-09-26 13:47:00,Success,6.2,False,6,False
+DEP00472,T05,ENG037,Object Storage,Production,2026-09-26 16:09:00,Success,29.6,False,5,False
+DEP00473,T05,ENG038,ETL Orchestration,Development,2026-10-02 12:30:00,Success,10.0,False,5,False
+DEP00474,T05,ENG036,Compute,Production,2026-09-26 15:08:00,Success,5.0,False,8,False
+DEP00475,T05,ENG040,ETL Orchestration,Staging,2026-10-03 11:44:00,Success,19.8,False,1,False
+DEP00476,T05,ENG036,Object Storage,Staging,2026-10-01 09:24:00,Success,7.3,False,1,False
+DEP00477,T05,ENG036,Monitoring,Staging,2026-09-25 14:58:00,Success,24.7,False,3,False
+DEP00478,T05,ENG038,ETL Orchestration,Staging,2026-10-15 16:35:00,Success,7.1,False,6,False
+DEP00479,T05,ENG035,Compute,Development,2026-10-15 08:08:00,Success,18.7,False,2,False
+DEP00480,T05,ENG038,ETL Orchestration,Development,2026-10-16 16:33:00,Success,11.5,False,5,False
+DEP00481,T05,ENG037,Data Warehouse,Production,2026-10-10 13:51:00,Success,7.7,False,4,True
+DEP00482,T05,ENG039,Compute,Production,2026-10-17 16:00:00,Success,2.9,False,3,False
+DEP00483,T05,ENG035,Monitoring,Production,2026-10-20 09:26:00,Success,3.8,False,12,False
+DEP00484,T05,ENG039,Monitoring,Development,2026-10-24 08:35:00,Success,12.7,False,5,True
+DEP00485,T05,ENG040,Monitoring,Development,2026-10-23 10:05:00,Success,28.1,False,2,False
+DEP00486,T05,ENG035,Compute,Production,2026-10-26 14:17:00,Success,3.8,False,6,False
+DEP00487,T06,ENG043,Backup Storage,Staging,2026-05-09 14:45:00,Success,6.9,False,2,False
+DEP00488,T06,ENG045,Network Egress,Staging,2026-05-07 17:56:00,Success,2.4,False,2,False
+DEP00489,T06,ENG043,Network Egress,Development,2026-05-16 12:22:00,Success,1.7,False,4,False
+DEP00490,T06,ENG044,Kubernetes,Production,2026-05-10 13:06:00,Success,14.6,False,10,False
+DEP00491,T06,ENG041,Network Egress,Production,2026-05-09 17:23:00,Success,3.3,False,13,True
+DEP00492,T06,ENG041,Kubernetes,Production,2026-05-12 17:13:00,Success,15.2,False,3,False
+DEP00493,T06,ENG042,Compute,Production,2026-05-17 15:32:00,Success,3.5,False,11,False
+DEP00494,T06,ENG041,Backup Storage,Production,2026-05-13 20:55:00,Success,3.8,False,6,False
+DEP00495,T06,ENG043,Network Egress,Production,2026-05-19 13:17:00,Success,11.1,False,7,False
+DEP00496,T06,ENG044,Compute,Production,2026-05-29 12:44:00,Success,14.7,False,3,False
+DEP00497,T06,ENG042,Observability,Development,2026-05-22 18:58:00,Success,5.8,False,7,False
+DEP00498,T06,ENG041,Compute,Production,2026-05-24 17:13:00,Success,17.5,False,6,False
+DEP00499,T06,ENG043,Kubernetes,Development,2026-05-25 09:18:00,Success,11.4,False,3,False
+DEP00500,T06,ENG042,Backup Storage,Production,2026-05-20 19:10:00,Success,8.1,False,5,False
+DEP00501,T06,ENG041,Kubernetes,Staging,2026-05-30 19:06:00,Success,7.6,False,6,False
+DEP00502,T06,ENG044,Observability,Staging,2026-05-21 21:45:00,Success,6.8,False,3,False
+DEP00503,T06,ENG041,Kubernetes,Production,2026-05-22 21:13:00,Success,5.1,False,9,False
+DEP00504,T06,ENG041,Observability,Production,2026-05-22 09:13:00,Success,10.0,False,4,False
+DEP00505,T06,ENG042,Backup Storage,Production,2026-05-19 10:45:00,Success,8.5,False,10,False
+DEP00506,T06,ENG042,Compute,Production,2026-05-30 08:53:00,Success,11.8,False,6,False
+DEP00507,T06,ENG042,Kubernetes,Production,2026-05-25 11:59:00,Success,10.4,False,10,False
+DEP00508,T06,ENG043,Kubernetes,Production,2026-05-24 09:28:00,Success,13.4,False,12,False
+DEP00509,T06,ENG041,Kubernetes,Development,2026-05-31 16:18:00,Success,3.6,False,6,False
+DEP00510,T06,ENG045,Compute,Production,2026-06-05 10:10:00,Success,5.3,False,16,False
+DEP00511,T06,ENG043,Observability,Staging,2026-06-04 15:38:00,Success,7.3,False,5,False
+DEP00512,T06,ENG045,Compute,Production,2026-06-13 13:07:00,Success,1.9,False,17,False
+DEP00513,T06,ENG041,Kubernetes,Production,2026-06-12 14:17:00,Success,6.5,False,10,False
+DEP00514,T06,ENG041,Observability,Staging,2026-06-02 15:12:00,Success,12.3,False,3,False
+DEP00515,T06,ENG041,Kubernetes,Staging,2026-06-08 19:57:00,Success,3.9,False,6,False
+DEP00516,T06,ENG043,Network Egress,Development,2026-06-06 16:05:00,Success,12.0,False,4,False
+DEP00517,T06,ENG045,Compute,Staging,2026-06-06 10:46:00,Success,17.8,False,5,False
+DEP00518,T06,ENG044,Network Egress,Staging,2026-06-13 09:05:00,Success,30.4,False,3,False
+DEP00519,T06,ENG041,Backup Storage,Production,2026-06-02 20:31:00,Success,7.2,False,6,False
+DEP00520,T06,ENG041,Network Egress,Staging,2026-06-10 09:45:00,Success,12.1,False,4,False
+DEP00521,T06,ENG045,Observability,Production,2026-06-11 13:12:00,Success,8.1,False,12,False
+DEP00522,T06,ENG042,Kubernetes,Development,2026-06-08 18:19:00,Success,5.7,False,3,False
+DEP00523,T06,ENG045,Observability,Development,2026-06-11 11:34:00,Success,7.7,False,3,False
+DEP00524,T06,ENG044,Backup Storage,Production,2026-06-08 10:39:00,Success,7.7,False,6,False
+DEP00525,T06,ENG042,Network Egress,Staging,2026-06-11 15:27:00,Success,5.0,False,5,False
+DEP00526,T06,ENG041,Observability,Production,2026-06-05 19:26:00,Success,4.5,False,11,False
+DEP00527,T06,ENG042,Compute,Development,2026-06-27 12:12:00,Success,19.1,False,4,False
+DEP00528,T06,ENG041,Network Egress,Development,2026-06-23 20:45:00,Success,6.2,False,2,False
+DEP00529,T06,ENG041,Kubernetes,Development,2026-06-22 10:57:00,Success,6.1,False,7,True
+DEP00530,T06,ENG044,Compute,Staging,2026-06-26 18:27:00,Success,13.6,False,3,False
+DEP00531,T06,ENG044,Backup Storage,Staging,2026-06-18 12:35:00,Success,7.6,False,2,False
+DEP00532,T06,ENG042,Observability,Development,2026-06-18 11:25:00,Success,4.7,False,3,False
+DEP00533,T06,ENG041,Compute,Staging,2026-06-19 08:22:00,Success,7.3,False,5,False
+DEP00534,T06,ENG041,Network Egress,Production,2026-07-12 13:01:00,Success,23.1,False,10,False
+DEP00535,T06,ENG043,Network Egress,Production,2026-07-07 17:23:00,Success,9.4,False,4,False
+DEP00536,T06,ENG043,Compute,Development,2026-06-29 15:59:00,Success,12.0,False,6,False
+DEP00537,T06,ENG042,Backup Storage,Staging,2026-07-06 12:51:00,Success,6.1,False,3,False
+DEP00538,T06,ENG045,Backup Storage,Staging,2026-07-01 13:34:00,Success,6.2,False,3,False
+DEP00539,T06,ENG041,Backup Storage,Production,2026-06-30 12:28:00,Success,7.3,False,10,False
+DEP00540,T06,ENG043,Network Egress,Staging,2026-07-02 14:25:00,Success,9.4,False,5,False
+DEP00541,T06,ENG044,Compute,Development,2026-07-10 20:53:00,Success,14.9,False,2,False
+DEP00542,T06,ENG044,Backup Storage,Production,2026-07-11 11:58:00,Success,41.4,False,8,False
+DEP00543,T06,ENG043,Compute,Production,2026-07-05 19:36:00,Success,8.1,False,13,False
+DEP00544,T06,ENG041,Observability,Production,2026-07-02 19:14:00,Success,5.6,False,11,False
+DEP00545,T06,ENG044,Kubernetes,Staging,2026-07-14 20:10:00,Success,10.2,False,4,False
+DEP00546,T06,ENG041,Compute,Production,2026-07-13 08:36:00,Success,16.8,False,8,False
+DEP00547,T06,ENG043,Network Egress,Staging,2026-07-25 10:31:00,Success,17.2,False,6,False
+DEP00548,T06,ENG045,Network Egress,Staging,2026-07-13 12:04:00,Success,48.0,False,5,False
+DEP00549,T06,ENG044,Backup Storage,Staging,2026-07-19 17:41:00,Success,4.4,False,2,False
+DEP00550,T06,ENG041,Compute,Staging,2026-07-15 15:02:00,Success,7.1,False,1,False
+DEP00551,T06,ENG045,Kubernetes,Production,2026-07-21 14:09:00,Success,3.0,False,8,False
+DEP00552,T06,ENG045,Kubernetes,Staging,2026-07-23 18:08:00,Success,15.7,False,4,False
+DEP00553,T06,ENG044,Backup Storage,Production,2026-07-24 19:17:00,Success,10.4,False,6,False
+DEP00554,T06,ENG041,Backup Storage,Staging,2026-07-15 18:12:00,Success,15.7,False,7,False
+DEP00555,T06,ENG041,Observability,Development,2026-07-16 08:57:00,Success,6.3,False,4,False
+DEP00556,T06,ENG043,Backup Storage,Staging,2026-07-22 12:18:00,Success,8.4,False,3,False
+DEP00557,T06,ENG043,Kubernetes,Development,2026-07-25 21:18:00,Success,10.2,False,2,False
+DEP00558,T06,ENG045,Compute,Staging,2026-07-15 21:56:00,Success,16.4,False,8,False
+DEP00559,T06,ENG043,Backup Storage,Production,2026-07-31 08:38:00,Success,10.5,False,7,False
+DEP00560,T06,ENG042,Backup Storage,Staging,2026-08-08 10:05:00,Success,6.8,False,3,False
+DEP00561,T06,ENG041,Network Egress,Production,2026-07-29 20:03:00,Success,5.4,False,5,False
+DEP00562,T06,ENG045,Compute,Staging,2026-07-30 11:44:00,Success,5.4,False,5,False
+DEP00563,T06,ENG044,Compute,Staging,2026-07-29 12:42:00,Success,6.4,False,1,False
+DEP00564,T06,ENG043,Network Egress,Staging,2026-07-31 09:59:00,Success,7.9,False,5,False
+DEP00565,T06,ENG044,Backup Storage,Development,2026-07-30 16:19:00,Success,20.1,False,4,False
+DEP00566,T06,ENG042,Compute,Production,2026-08-08 18:08:00,Success,5.9,False,10,False
+DEP00567,T06,ENG043,Kubernetes,Staging,2026-08-08 18:39:00,Success,6.1,False,1,False
+DEP00568,T06,ENG044,Backup Storage,Production,2026-08-13 12:19:00,Success,4.9,False,10,False
+DEP00569,T06,ENG043,Compute,Staging,2026-08-21 17:55:00,Success,6.6,False,2,False
+DEP00570,T06,ENG042,Network Egress,Staging,2026-08-12 10:37:00,Success,5.3,False,4,False
+DEP00571,T06,ENG044,Kubernetes,Production,2026-08-21 08:17:00,Success,9.9,False,7,False
+DEP00572,T06,ENG041,Backup Storage,Production,2026-08-16 13:27:00,Success,17.4,False,11,False
+DEP00573,T06,ENG045,Observability,Production,2026-08-20 13:48:00,Success,5.9,False,6,False
+DEP00574,T06,ENG041,Network Egress,Development,2026-08-16 12:30:00,Success,4.0,False,4,False
+DEP00575,T06,ENG045,Backup Storage,Development,2026-08-18 21:07:00,Success,5.9,False,8,False
+DEP00576,T06,ENG043,Network Egress,Staging,2026-08-22 20:40:00,Success,11.3,False,6,False
+DEP00577,T06,ENG044,Backup Storage,Production,2026-08-14 17:58:00,Success,13.2,False,11,False
+DEP00578,T06,ENG044,Network Egress,Production,2026-08-23 19:00:00,Success,13.0,False,6,False
+DEP00579,T06,ENG043,Observability,Staging,2026-08-13 16:24:00,Success,19.7,False,2,False
+DEP00580,T06,ENG042,Observability,Production,2026-08-12 08:05:00,Success,5.9,False,11,False
+DEP00581,T06,ENG044,Backup Storage,Development,2026-08-23 13:26:00,Success,7.5,False,8,False
+DEP00582,T06,ENG044,Backup Storage,Staging,2026-09-05 08:54:00,Success,5.2,False,5,False
+DEP00583,T06,ENG044,Observability,Staging,2026-09-06 10:17:00,Success,7.7,False,7,False
+DEP00584,T06,ENG041,Kubernetes,Staging,2026-08-26 14:21:00,Success,6.9,False,4,False
+DEP00585,T06,ENG044,Observability,Production,2026-08-30 21:32:00,Failed,9.8,True,9,False
+DEP00586,T06,ENG043,Backup Storage,Production,2026-09-02 18:19:00,Success,13.2,False,10,False
+DEP00587,T06,ENG045,Compute,Production,2026-08-24 08:36:00,Success,21.5,False,7,False
+DEP00588,T06,ENG043,Compute,Development,2026-08-28 18:18:00,Success,9.2,False,5,False
+DEP00589,T06,ENG042,Backup Storage,Staging,2026-09-03 10:38:00,Success,6.3,False,4,False
+DEP00590,T06,ENG041,Observability,Staging,2026-08-31 10:48:00,Success,9.3,False,2,False
+DEP00591,T06,ENG045,Compute,Production,2026-09-02 18:37:00,Success,7.5,False,11,False
+DEP00592,T06,ENG045,Compute,Staging,2026-08-24 15:40:00,Success,5.8,False,6,False
+DEP00593,T06,ENG041,Compute,Staging,2026-08-28 21:50:00,Success,14.0,False,3,False
+DEP00594,T06,ENG045,Observability,Development,2026-08-31 17:50:00,Success,4.8,False,8,False
+DEP00595,T06,ENG042,Backup Storage,Development,2026-09-05 15:16:00,Success,6.9,False,1,False
+DEP00596,T06,ENG041,Compute,Production,2026-09-07 12:25:00,Success,7.6,False,9,False
+DEP00597,T06,ENG045,Compute,Staging,2026-09-11 09:23:00,Success,5.6,False,5,False
+DEP00598,T06,ENG042,Compute,Production,2026-09-07 09:46:00,Success,4.8,False,7,False
+DEP00599,T06,ENG045,Network Egress,Production,2026-09-11 17:23:00,Success,13.0,False,11,False
+DEP00600,T06,ENG041,Observability,Production,2026-09-20 08:23:00,Success,9.1,False,1,False
+DEP00601,T06,ENG044,Network Egress,Production,2026-09-11 12:06:00,Success,9.5,False,8,False
+DEP00602,T06,ENG045,Observability,Production,2026-09-08 12:07:00,Success,17.4,False,10,False
+DEP00603,T06,ENG044,Compute,Staging,2026-10-01 19:06:00,Success,4.4,False,4,False
+DEP00604,T06,ENG042,Backup Storage,Production,2026-09-21 18:16:00,Success,6.9,False,9,False
+DEP00605,T06,ENG042,Kubernetes,Development,2026-10-04 09:20:00,Success,5.8,False,7,False
+DEP00606,T06,ENG041,Backup Storage,Development,2026-09-30 21:32:00,Success,7.1,False,5,False
+DEP00607,T06,ENG041,Network Egress,Production,2026-10-01 08:52:00,Success,5.8,False,5,False
+DEP00608,T06,ENG042,Kubernetes,Production,2026-09-21 10:41:00,Failed,12.2,False,11,False
+DEP00609,T06,ENG043,Observability,Production,2026-10-02 18:29:00,Success,5.9,False,12,False
+DEP00610,T06,ENG041,Backup Storage,Production,2026-10-04 17:44:00,Success,11.4,False,8,False
+DEP00611,T06,ENG044,Kubernetes,Staging,2026-10-03 19:26:00,Success,7.2,False,7,False
+DEP00612,T06,ENG044,Compute,Staging,2026-09-29 20:24:00,Success,4.3,False,3,False
+DEP00613,T06,ENG044,Kubernetes,Staging,2026-10-02 16:06:00,Success,19.5,False,4,False
+DEP00614,T06,ENG045,Observability,Staging,2026-10-12 10:22:00,Success,9.4,False,5,False
+DEP00615,T06,ENG045,Compute,Production,2026-10-14 12:13:00,Success,9.9,False,7,False
+DEP00616,T06,ENG045,Kubernetes,Staging,2026-10-17 10:54:00,Success,9.1,False,6,False
+DEP00617,T06,ENG041,Compute,Staging,2026-10-10 12:45:00,Success,10.9,False,6,False
+DEP00618,T06,ENG045,Observability,Production,2026-10-14 18:55:00,Success,12.0,False,5,False
+DEP00619,T06,ENG043,Backup Storage,Development,2026-10-08 17:03:00,Success,8.7,False,5,False
+DEP00620,T06,ENG042,Compute,Development,2026-10-09 18:55:00,Success,10.8,False,5,False
+DEP00621,T06,ENG041,Compute,Production,2026-10-10 14:08:00,Success,6.2,False,5,False
+DEP00622,T06,ENG045,Network Egress,Production,2026-10-12 17:07:00,Success,12.4,False,12,True
+DEP00623,T06,ENG042,Observability,Production,2026-10-14 12:27:00,Success,9.2,False,6,False
+DEP00624,T06,ENG044,Compute,Development,2026-10-28 15:08:00,Success,8.1,False,1,False
+DEP00625,T06,ENG042,Backup Storage,Production,2026-10-29 11:51:00,Success,11.1,False,3,False
+DEP00626,T06,ENG041,Observability,Production,2026-10-29 12:19:00,Success,7.2,False,2,False
+DEP00627,T06,ENG045,Network Egress,Production,2026-10-21 19:44:00,Success,12.0,False,11,False
+DEP00628,T06,ENG043,Compute,Staging,2026-10-26 10:43:00,Success,4.0,False,2,False
+DEP00629,T06,ENG044,Network Egress,Development,2026-10-21 11:08:00,Success,11.6,False,1,False
+DEP00630,T06,ENG045,Compute,Development,2026-10-30 14:01:00,Success,2.6,False,6,False
+DEP00631,T06,ENG041,Observability,Production,2026-10-31 15:18:00,Success,3.2,False,8,False
+DEP00632,T06,ENG041,Backup Storage,Development,2026-10-30 15:15:00,Success,25.7,False,6,False
+DEP00633,T06,ENG044,Kubernetes,Production,2026-10-25 11:02:00,Success,5.1,False,13,False
+DEP00634,T06,ENG045,Kubernetes,Development,2026-10-21 18:37:00,Success,5.8,False,6,False
+DEP00635,T06,ENG041,Kubernetes,Development,2026-10-26 14:00:00,Success,2.9,False,4,False
+DEP00636,T06,ENG041,Backup Storage,Staging,2026-10-23 08:37:00,Success,9.5,False,8,False
+DEP00637,T06,ENG042,Compute,Production,2026-10-23 12:17:00,Success,5.1,False,15,False
+DEP00638,T06,ENG044,Compute,Production,2026-10-26 19:30:00,Success,6.1,False,8,False
+DEP00639,T06,ENG045,Network Egress,Production,2026-11-01 08:48:00,Success,10.6,False,2,False
+DEP00640,T06,ENG043,Network Egress,Production,2026-10-21 10:11:00,Success,9.0,False,8,False
+DEP00641,T06,ENG041,Observability,Production,2026-10-28 11:01:00,Success,4.6,False,15,False
+DEP00642,T07,ENG046,Messaging,Staging,2026-05-16 20:38:00,Success,8.3,False,1,False
+DEP00643,T07,ENG048,Managed Database,Staging,2026-05-16 14:05:00,Success,4.5,False,3,False
+DEP00644,T07,ENG048,Partner API,Development,2026-05-10 16:05:00,Success,3.7,False,3,False
+DEP00645,T07,ENG046,API Gateway,Staging,2026-05-21 13:08:00,Failed,10.9,True,5,False
+DEP00646,T07,ENG046,API Gateway,Production,2026-06-05 19:40:00,Success,12.4,False,7,False
+DEP00647,T07,ENG047,API Gateway,Production,2026-06-03 13:50:00,Success,4.5,False,8,False
+DEP00648,T07,ENG050,Messaging,Development,2026-06-24 13:06:00,Success,9.0,False,4,False
+DEP00649,T07,ENG047,Monitoring,Production,2026-06-22 17:56:00,Failed,8.0,True,9,False
+DEP00650,T07,ENG046,Messaging,Staging,2026-06-23 15:22:00,Failed,2.5,True,3,False
+DEP00651,T07,ENG048,Monitoring,Production,2026-07-05 21:52:00,Success,7.1,False,6,False
+DEP00652,T07,ENG047,API Gateway,Production,2026-07-01 08:44:00,Success,12.1,False,11,False
+DEP00653,T07,ENG050,Messaging,Production,2026-06-29 11:08:00,Success,11.2,False,4,False
+DEP00654,T07,ENG048,Monitoring,Production,2026-07-03 17:35:00,Success,16.8,False,12,False
+DEP00655,T07,ENG046,Partner API,Staging,2026-07-07 21:12:00,Success,5.4,False,4,False
+DEP00656,T07,ENG050,Managed Database,Production,2026-07-25 15:08:00,Success,5.3,False,6,False
+DEP00657,T07,ENG048,Messaging,Staging,2026-07-17 09:47:00,Success,8.4,False,4,False
+DEP00658,T07,ENG049,Messaging,Development,2026-07-16 19:12:00,Success,4.0,False,8,False
+DEP00659,T07,ENG049,Partner API,Staging,2026-07-22 17:17:00,Success,14.4,False,4,False
+DEP00660,T07,ENG050,API Gateway,Production,2026-08-04 20:27:00,Success,9.4,False,5,False
+DEP00661,T07,ENG048,Monitoring,Staging,2026-07-31 21:44:00,Success,9.1,False,5,False
+DEP00662,T07,ENG048,API Gateway,Production,2026-08-02 08:57:00,Failed,8.8,True,6,False
+DEP00663,T07,ENG046,Partner API,Production,2026-08-18 13:46:00,Success,19.0,False,13,False
+DEP00664,T07,ENG046,Messaging,Staging,2026-08-22 12:52:00,Success,8.4,False,1,False
+DEP00665,T07,ENG047,API Gateway,Production,2026-08-21 14:55:00,Success,10.9,False,4,False
+DEP00666,T07,ENG049,Monitoring,Production,2026-08-12 17:27:00,Success,3.5,False,8,False
+DEP00667,T07,ENG050,Managed Database,Staging,2026-08-20 16:27:00,Success,5.0,False,5,False
+DEP00668,T07,ENG050,Managed Database,Production,2026-08-27 10:15:00,Success,5.3,False,8,False
+DEP00669,T07,ENG049,Monitoring,Staging,2026-09-02 14:59:00,Success,10.9,False,5,False
+DEP00670,T07,ENG048,Monitoring,Production,2026-09-04 18:53:00,Failed,10.5,False,9,False
+DEP00671,T07,ENG048,Managed Database,Development,2026-08-28 20:46:00,Success,20.0,False,3,False
+DEP00672,T07,ENG048,Monitoring,Staging,2026-09-06 13:17:00,Success,7.9,False,9,False
+DEP00673,T07,ENG048,Messaging,Production,2026-08-27 12:33:00,Success,13.0,False,14,False
+DEP00674,T07,ENG048,Managed Database,Staging,2026-09-07 21:26:00,Success,5.7,False,3,False
+DEP00675,T07,ENG049,API Gateway,Staging,2026-09-15 08:37:00,Success,15.5,False,5,False
+DEP00676,T07,ENG046,Messaging,Staging,2026-09-14 21:02:00,Success,4.8,False,4,False
+DEP00677,T07,ENG050,Monitoring,Staging,2026-09-10 12:51:00,Failed,13.9,False,4,False
+DEP00678,T07,ENG050,Messaging,Production,2026-09-16 19:09:00,Success,12.3,False,5,False
+DEP00679,T07,ENG049,Monitoring,Production,2026-09-25 16:07:00,Success,10.7,False,9,False
+DEP00680,T07,ENG048,API Gateway,Staging,2026-09-25 10:13:00,Success,4.5,False,7,False
+DEP00681,T07,ENG049,Messaging,Production,2026-09-21 11:53:00,Success,3.5,False,8,False
+DEP00682,T07,ENG048,API Gateway,Production,2026-09-24 10:13:00,Success,7.5,False,6,False
+DEP00683,T07,ENG046,Managed Database,Staging,2026-10-13 18:47:00,Failed,16.6,True,8,False
+DEP00684,T07,ENG049,Monitoring,Production,2026-10-20 20:52:00,Success,7.4,False,11,False

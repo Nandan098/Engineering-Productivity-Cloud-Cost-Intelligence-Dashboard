@@ -1,0 +1,51 @@
+engineer_id,team_id,role,career_level,experience_years,employment_type,standard_weekly_hours
+ENG001,T01,Tech Lead,Lead,8,Full-time,40
+ENG002,T01,Senior Backend Engineer,Senior,5,Contract,40
+ENG003,T01,Backend Engineer,Mid,2,Full-time,40
+ENG004,T01,Backend Engineer,Mid,2,Full-time,40
+ENG005,T01,Backend Engineer,Junior,2,Full-time,40
+ENG006,T01,QA Engineer,Mid,5,Full-time,40
+ENG007,T01,Backend Engineer,Mid,4,Full-time,40
+ENG008,T01,Payments Engineer,Junior,0,Full-time,40
+ENG009,T02,Tech Lead,Lead,12,Full-time,40
+ENG010,T02,Senior Platform Engineer,Senior,9,Full-time,40
+ENG011,T02,Senior Backend Engineer,Senior,8,Full-time,40
+ENG012,T02,Platform Engineer,Mid,3,Full-time,40
+ENG013,T02,Platform Engineer,Mid,2,Full-time,40
+ENG014,T02,Platform Engineer,Mid,3,Full-time,40
+ENG015,T02,SRE,Junior,2,Full-time,40
+ENG016,T02,Backend Engineer,Mid,2,Full-time,40
+ENG017,T02,QA Engineer,Mid,3,Full-time,40
+ENG018,T03,Tech Lead,Lead,7,Full-time,40
+ENG019,T03,Senior Backend Engineer,Senior,5,Full-time,40
+ENG020,T03,Backend Engineer,Mid,3,Full-time,40
+ENG021,T03,Backend Engineer,Mid,4,Contract,40
+ENG022,T03,Backend Engineer,Mid,4,Full-time,40
+ENG023,T03,Backend Engineer,Junior,2,Full-time,40
+ENG024,T03,QA Engineer,Mid,3,Full-time,40
+ENG025,T03,QA Engineer,Mid,4,Full-time,40
+ENG026,T03,Integration Engineer,Junior,0,Full-time,40
+ENG027,T03,Backend Engineer,Mid,5,Full-time,40
+ENG028,T04,Tech Lead,Lead,10,Full-time,40
+ENG029,T04,Senior Android Engineer,Senior,9,Full-time,40
+ENG030,T04,Android Engineer,Mid,3,Full-time,40
+ENG031,T04,iOS Engineer,Mid,5,Full-time,40
+ENG032,T04,iOS Engineer,Mid,4,Full-time,40
+ENG033,T04,Mobile Engineer,Mid,3,Full-time,40
+ENG034,T04,QA Engineer,Mid,5,Full-time,40
+ENG035,T05,Tech Lead,Lead,11,Full-time,40
+ENG036,T05,Senior Data Engineer,Senior,7,Full-time,40
+ENG037,T05,Data Engineer,Mid,3,Full-time,40
+ENG038,T05,Data Engineer,Mid,5,Full-time,40
+ENG039,T05,Analytics Engineer,Mid,3,Full-time,40
+ENG040,T05,QA Engineer,Mid,5,Full-time,40
+ENG041,T06,Tech Lead,Lead,10,Full-time,40
+ENG042,T06,Senior SRE,Senior,8,Full-time,40
+ENG043,T06,SRE,Mid,2,Full-time,40
+ENG044,T06,SRE,Mid,5,Full-time,40
+ENG045,T06,Infrastructure Engineer,Mid,3,Full-time,40
+ENG046,T07,Tech Lead,Lead,12,Full-time,40
+ENG047,T07,Senior Integration Engineer,Senior,5,Full-time,40
+ENG048,T07,Integration Engineer,Mid,4,Full-time,40
+ENG049,T07,Backend Engineer,Mid,2,Full-time,40
+ENG050,T07,QA Engineer,Mid,4,Full-time,40
